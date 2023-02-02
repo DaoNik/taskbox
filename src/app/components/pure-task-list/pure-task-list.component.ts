@@ -1,8 +1,8 @@
-import {Component, EventEmitter, Input, OnInit, Output} from '@angular/core';
-import { Task } from '../../models/task.model';
+import {Component, EventEmitter, Input, Output} from '@angular/core';
+import {Task} from '../../models/task.model';
 
 @Component({
-  selector: 'app-pure-pure-task-list',
+  selector: 'app-pure-task-list',
   templateUrl: './pure-task-list.component.html',
   styleUrls: ['./pure-task-list.component.css']
 })
