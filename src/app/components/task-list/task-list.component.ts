@@ -1,5 +1,8 @@
-import {Component, EventEmitter, Input, OnInit, Output} from '@angular/core';
+import { Component } from '@angular/core';
+import {Observable} from "rxjs";
+import {Store} from "@ngxs/store";
 import { Task } from '../../models/task.model';
+import {ArchiveTask, PinTask} from "../../state/task.state";
 
 @Component({
   selector: 'app-task-list',
@@ -7,24 +10,17 @@ import { Task } from '../../models/task.model';
   styleUrls: ['./task-list.component.css']
 })
 export class TaskListComponent {
-  @Input() loading = false;
+  tasks$?: Observable<Task[]>;
 
-  @Output() onPinTask = new EventEmitter<string>();
+  constructor(private store: Store) {
+    this.tasks$ = store.select((state) => state.taskbox.tasks);
+  }
 
-  @Output() onArchiveTask = new EventEmitter<string>();
+  archiveTask(id: string) {
+    this.store.dispatch(new ArchiveTask(id));
+  }
 
-  tasksInOrder: Task[] = [];
-
-  @Input() set tasks(arr: Task[]) {
-    const initialTasks = [
-      ...arr.filter(t => t.state === 'TASK_PINNED'),
-      ...arr.filter(t => t.state !== 'TASK_PINNED'),
-    ];
-    // const filteredTasks = initialTasks.filter(
-    //   t => t.state === 'TASK_INBOX' || t.state === 'TASK_PINNED'
-    // );
-    this.tasksInOrder = initialTasks.filter(
-      t => t.state === 'TASK_INBOX' || t.state === 'TASK_PINNED'
-    );
+  pinTask(id: string) {
+    this.store.dispatch(new PinTask(id));
   }
 }

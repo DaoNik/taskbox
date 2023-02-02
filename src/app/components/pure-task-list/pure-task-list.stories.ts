@@ -1,19 +1,19 @@
-import {TaskListComponent} from "./task-list.component";
+import {PureTaskListComponent} from "./pure-task-list.component";
 import {componentWrapperDecorator, Meta, moduleMetadata, Story} from "@storybook/angular";
 import {TaskComponent} from "../task/task.component";
 import {CommonModule} from "@angular/common";
 import * as TaskStories from "../task/task.stories";
 
 export default {
-  component: TaskListComponent,
+  component: PureTaskListComponent,
   decorators: [
     moduleMetadata({
-      declarations: [TaskListComponent, TaskComponent],
+      declarations: [PureTaskListComponent, TaskComponent],
       imports: [CommonModule]
     }),
     componentWrapperDecorator(story => `<div style="margin: 3em">${story}</div>`)
   ],
-  title: 'TaskList'
+  title: 'PureTaskList'
 } as Meta;
 
 const Template: Story = args => ({
@@ -27,12 +27,12 @@ const Template: Story = args => ({
 export const Default = Template.bind({});
 Default.args = {
   tasks: [
-    { ...TaskStories.Default.args?.['task'], id: '1', title: 'Task 1' },
-    { ...TaskStories.Default.args?.['task'], id: '2', title: 'Task 2' },
-    { ...TaskStories.Default.args?.['task'], id: '3', title: 'Task 3' },
-    { ...TaskStories.Default.args?.['task'], id: '4', title: 'Task 4' },
-    { ...TaskStories.Default.args?.['task'], id: '5', title: 'Task 5' },
-    { ...TaskStories.Default.args?.['task'], id: '6', title: 'Task 6' },
+    {...TaskStories.Default.args?.['task'], id: '1', title: 'Task 1'},
+    {...TaskStories.Default.args?.['task'], id: '2', title: 'Task 2'},
+    {...TaskStories.Default.args?.['task'], id: '3', title: 'Task 3'},
+    {...TaskStories.Default.args?.['task'], id: '4', title: 'Task 4'},
+    {...TaskStories.Default.args?.['task'], id: '5', title: 'Task 5'},
+    {...TaskStories.Default.args?.['task'], id: '6', title: 'Task 6'},
   ]
 }
 
@@ -40,7 +40,7 @@ export const WithPinnedTasks = Template.bind({});
 WithPinnedTasks.args = {
   tasks: [
     ...Default.args['tasks'].slice(0, 5),
-    { id: '6', title: 'Task 6 (pinned)', state: 'TASK_PINNED' },
+    {id: '6', title: 'Task 6 (pinned)', state: 'TASK_PINNED'},
   ],
 };
 
