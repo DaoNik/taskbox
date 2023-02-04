@@ -1,0 +1,943 @@
+[0m
+[0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [48;5;255m [48;5;255m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m
+[0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [48;5;255m [48;5;255m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m
+[0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [48;5;255m [48;5;255m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m
+[48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [0m [0m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [0m [0m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [0m [0m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [0m [0m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [0m [0m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [0m [0m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [0m [0m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [0m
+[48;5;255m [48;5;255m [0m [0m [0m [0m [0m [0m [0m [48;5;255m [48;5;255m [0m [0m [0m [0m [48;5;255m [48;5;255m [0m [0m [48;5;255m [48;5;255m [0m [0m [0m [48;5;255m [48;5;255m [0m [0m [0m [48;5;255m [48;5;255m [0m [0m [48;5;255m [48;5;255m [0m [0m [0m [0m [48;5;255m [48;5;255m [0m [0m [48;5;255m [48;5;255m [0m [0m [0m [0m [48;5;255m [48;5;255m [0m [0m [48;5;255m [48;5;255m [0m [0m [0m [0m [48;5;255m [48;5;255m [0m [0m [48;5;255m [48;5;255m [0m [0m [0m [0m [48;5;255m [48;5;255m [0m [0m [48;5;255m [48;5;255m [0m
+[48;5;255m [48;5;255m [0m [0m [0m [0m [0m [0m [0m [48;5;255m [48;5;255m [0m [0m [0m [0m [48;5;255m [48;5;255m [0m [0m [48;5;255m [48;5;255m [0m [0m [0m [48;5;255m [48;5;255m [0m [0m [0m [48;5;255m [48;5;255m [0m [0m [48;5;255m [48;5;255m [0m [0m [0m [0m [48;5;255m [48;5;255m [0m [0m [48;5;255m [48;5;255m [0m [0m [0m [0m [48;5;255m [48;5;255m [0m [0m [48;5;255m [48;5;255m [0m [0m [0m [0m [48;5;255m [48;5;255m [0m [0m [48;5;255m [48;5;255m [0m [0m [0m [0m [48;5;255m [48;5;255m [0m [0m [48;5;255m [48;5;255m [0m
+[48;5;255m [48;5;255m [0m [0m [0m [0m [0m [0m [0m [48;5;255m [48;5;255m [0m [0m [0m [0m [48;5;255m [48;5;255m [0m [0m [48;5;255m [48;5;255m [0m [0m [0m [48;5;255m [48;5;255m [0m [0m [0m [48;5;255m [48;5;255m [0m [0m [48;5;255m [48;5;255m [0m [0m [0m [0m [48;5;255m [48;5;255m [0m [0m [48;5;255m [48;5;255m [0m [0m [0m [0m [48;5;255m [48;5;255m [0m [0m [48;5;255m [48;5;255m [0m [0m [0m [0m [48;5;255m [48;5;255m [0m [0m [48;5;255m [48;5;255m [0m [0m [0m [0m [48;5;255m [48;5;255m [0m [0m [48;5;255m [48;5;255m [0m
+[48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [0m [0m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [0m [0m [48;5;255m [48;5;255m [0m [0m [0m [48;5;255m [48;5;255m [0m [0m [0m [48;5;255m [48;5;255m [0m [0m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [0m [0m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [0m [0m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [0m [0m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [0m [0m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [0m
+[0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [48;5;255m [48;5;255m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m
+[0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [48;5;255m [48;5;255m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m
+[0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [48;5;255m [48;5;255m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m
+
+1.1.19
+
+TypeScript version used by Compodoc : 4.5.5
+
+TypeScript version of current project : 4.6.2
+
+Node.js version : v18.12.1
+
+Operating system : macOS
+
+[11:17:24] No configuration file found, switching to CLI flags.
+[11:17:24] Using tsconfig file : /Users/daonik/Desktop/development/learning/taskbox/tsconfig.json
+[11:17:24] Including      : /Users/daonik/Desktop/development/learning/taskbox/.browserslistrc
+[11:17:24] Including      : /Users/daonik/Desktop/development/learning/taskbox/.editorconfig
+[11:17:24] Including      : /Users/daonik/Desktop/development/learning/taskbox/.gitignore
+[11:17:24] Including      : /Users/daonik/Desktop/development/learning/taskbox/LICENSE
+[11:17:24] Including      : /Users/daonik/Desktop/development/learning/taskbox/README.md
+[11:17:24] Including      : /Users/daonik/Desktop/development/learning/taskbox/build-storybook.log
+[11:17:24] Including      : /Users/daonik/Desktop/development/learning/taskbox/angular.json
+[11:17:24] Including      : /Users/daonik/Desktop/development/learning/taskbox/documentation.json
+[11:17:24] Including      : /Users/daonik/Desktop/development/learning/taskbox/package-lock.json
+[11:17:24] Including      : /Users/daonik/Desktop/development/learning/taskbox/jest.config.js
+[11:17:24] Including      : /Users/daonik/Desktop/development/learning/taskbox/package.json
+[11:17:24] Including      : /Users/daonik/Desktop/development/learning/taskbox/tsconfig.json
+[11:17:24] Including      : /Users/daonik/Desktop/development/learning/taskbox/tsconfig.spec.json
+[11:17:24] Including      : /Users/daonik/Desktop/development/learning/taskbox/tsconfig.app.json
+[11:17:24] Including      : /Users/daonik/Desktop/development/learning/taskbox/.storybook/main.js
+[11:17:24] Ignoring       : /Users/daonik/Desktop/development/learning/taskbox/.storybook/typings.d.ts
+[11:17:24] Including      : /Users/daonik/Desktop/development/learning/taskbox/.storybook/tsconfig.json
+[11:17:24] Including      : /Users/daonik/Desktop/development/learning/taskbox/.idea/.gitignore
+[11:17:24] Including      : /Users/daonik/Desktop/development/learning/taskbox/.idea/modules.xml
+[11:17:24] Including      : /Users/daonik/Desktop/development/learning/taskbox/.idea/prettier.xml
+[11:17:24] Including      : /Users/daonik/Desktop/development/learning/taskbox/.idea/taskbox.iml
+[11:17:24] Including      : /Users/daonik/Desktop/development/learning/taskbox/.idea/vcs.xml
+[11:17:24] Including      : /Users/daonik/Desktop/development/learning/taskbox/.idea/workspace.xml
+[11:17:24] Including      : /Users/daonik/Desktop/development/learning/taskbox/jest-config/setup.ts
+[11:17:24] Including      : /Users/daonik/Desktop/development/learning/taskbox/.storybook/preview.js
+[11:17:24] Including      : /Users/daonik/Desktop/development/learning/taskbox/src/index.html
+[11:17:24] Including      : /Users/daonik/Desktop/development/learning/taskbox/src/main.ts
+[11:17:24] Including      : /Users/daonik/Desktop/development/learning/taskbox/src/polyfills.ts
+[11:17:24] Including      : /Users/daonik/Desktop/development/learning/taskbox/src/favicon.ico
+[11:17:24] Including      : /Users/daonik/Desktop/development/learning/taskbox/src/styles.css
+[11:17:24] Including      : /Users/daonik/Desktop/development/learning/taskbox/jest-config/__mocks__/fileMock.js
+[11:17:24] Including      : /Users/daonik/Desktop/development/learning/taskbox/src/app/app.component.css
+[11:17:24] Including      : /Users/daonik/Desktop/development/learning/taskbox/jest-config/__mocks__/globalMocks.ts
+[11:17:24] Including      : /Users/daonik/Desktop/development/learning/taskbox/jest-config/__mocks__/styleMock.js
+[11:17:24] Including      : /Users/daonik/Desktop/development/learning/taskbox/src/app/app.component.html
+[11:17:24] Including      : /Users/daonik/Desktop/development/learning/taskbox/src/app/app.component.ts
+[11:17:24] Ignoring       : /Users/daonik/Desktop/development/learning/taskbox/src/app/app.component.spec.ts
+[11:17:24] Including      : /Users/daonik/Desktop/development/learning/taskbox/src/app/app.module.ts
+[11:17:24] Including      : /Users/daonik/Desktop/development/learning/taskbox/src/assets/.gitkeep
+[11:17:24] Including      : /Users/daonik/Desktop/development/learning/taskbox/src/environments/environment.ts
+[11:17:24] Including      : /Users/daonik/Desktop/development/learning/taskbox/src/stories/Header.stories.ts
+[11:17:24] Including      : /Users/daonik/Desktop/development/learning/taskbox/src/stories/Button.stories.ts
+[11:17:24] Including      : /Users/daonik/Desktop/development/learning/taskbox/src/stories/Introduction.stories.mdx
+[11:17:24] Including      : /Users/daonik/Desktop/development/learning/taskbox/src/stories/Page.stories.ts
+[11:17:24] Including      : /Users/daonik/Desktop/development/learning/taskbox/src/environments/environment.prod.ts
+[11:17:24] Including      : /Users/daonik/Desktop/development/learning/taskbox/src/stories/User.ts
+[11:17:24] Including      : /Users/daonik/Desktop/development/learning/taskbox/src/stories/button.component.ts
+[11:17:24] Including      : /Users/daonik/Desktop/development/learning/taskbox/src/stories/header.component.ts
+[11:17:24] Including      : /Users/daonik/Desktop/development/learning/taskbox/src/stories/header.css
+[11:17:24] Including      : /Users/daonik/Desktop/development/learning/taskbox/src/stories/page.component.ts
+[11:17:24] Including      : /Users/daonik/Desktop/development/learning/taskbox/src/stories/button.css
+[11:17:24] Including      : /Users/daonik/Desktop/development/learning/taskbox/src/stories/page.css
+[11:17:24] Including      : /Users/daonik/Desktop/development/learning/taskbox/src/app/components/task.module.ts
+[11:17:24] Including      : /Users/daonik/Desktop/development/learning/taskbox/src/assets/icon/percolate.eot
+[11:17:24] Including      : /Users/daonik/Desktop/development/learning/taskbox/src/assets/icon/percolate.svg
+[11:17:24] Including      : /Users/daonik/Desktop/development/learning/taskbox/src/assets/icon/percolate.ttf
+[11:17:24] Including      : /Users/daonik/Desktop/development/learning/taskbox/src/app/state/task.state.ts
+[11:17:24] Including      : /Users/daonik/Desktop/development/learning/taskbox/src/assets/icon/percolate.woff
+[11:17:24] Including      : /Users/daonik/Desktop/development/learning/taskbox/src/app/models/task.model.ts
+[11:17:24] Including      : /Users/daonik/Desktop/development/learning/taskbox/src/assets/font/OpenSans-Light-webfont.eot
+[11:17:24] Including      : /Users/daonik/Desktop/development/learning/taskbox/src/assets/font/OpenSans-Light-webfont.ttf
+[11:17:24] Including      : /Users/daonik/Desktop/development/learning/taskbox/src/assets/font/OpenSans-Light-webfont.svg
+[11:17:24] Including      : /Users/daonik/Desktop/development/learning/taskbox/src/assets/font/OpenSans-Light-webfont.woff
+[11:17:24] Including      : /Users/daonik/Desktop/development/learning/taskbox/src/assets/font/OpenSans-Regular-webfont.svg
+[11:17:24] Including      : /Users/daonik/Desktop/development/learning/taskbox/src/assets/font/OpenSans-Regular-webfont.ttf
+[11:17:24] Including      : /Users/daonik/Desktop/development/learning/taskbox/src/assets/font/OpenSans-Regular-webfont.woff
+[11:17:24] Including      : /Users/daonik/Desktop/development/learning/taskbox/src/stories/assets/code-brackets.svg
+[11:17:24] Including      : /Users/daonik/Desktop/development/learning/taskbox/src/stories/assets/colors.svg
+[11:17:24] Including      : /Users/daonik/Desktop/development/learning/taskbox/src/stories/assets/comments.svg
+[11:17:24] Including      : /Users/daonik/Desktop/development/learning/taskbox/src/stories/assets/direction.svg
+[11:17:24] Including      : /Users/daonik/Desktop/development/learning/taskbox/src/stories/assets/flow.svg
+[11:17:24] Including      : /Users/daonik/Desktop/development/learning/taskbox/src/stories/assets/plugin.svg
+[11:17:24] Including      : /Users/daonik/Desktop/development/learning/taskbox/src/assets/font/OpenSans-Regular-webfont.eot
+[11:17:24] Including      : /Users/daonik/Desktop/development/learning/taskbox/src/stories/assets/repo.svg
+[11:17:24] Including      : /Users/daonik/Desktop/development/learning/taskbox/src/stories/assets/stackalt.svg
+[11:17:24] Including      : /Users/daonik/Desktop/development/learning/taskbox/src/app/components/pure-inbox-screen/pure-inbox-screen.component.html
+[11:17:24] Including      : /Users/daonik/Desktop/development/learning/taskbox/src/app/components/pure-inbox-screen/pure-inbox-screen.component.css
+[11:17:24] Ignoring       : /Users/daonik/Desktop/development/learning/taskbox/src/app/components/pure-inbox-screen/pure-inbox-screen.component.spec.ts
+[11:17:24] Including      : /Users/daonik/Desktop/development/learning/taskbox/src/app/components/pure-inbox-screen/pure-inbox-screen.component.ts
+[11:17:24] Including      : /Users/daonik/Desktop/development/learning/taskbox/src/app/components/pure-inbox-screen/pure-inbox-screen.stories.ts
+[11:17:24] Including      : /Users/daonik/Desktop/development/learning/taskbox/src/app/components/inbox-screen/inbox-screen.component.css
+[11:17:24] Including      : /Users/daonik/Desktop/development/learning/taskbox/src/app/components/inbox-screen/inbox-screen.component.html
+[11:17:24] Including      : /Users/daonik/Desktop/development/learning/taskbox/src/app/components/inbox-screen/inbox-screen.component.ts
+[11:17:24] Ignoring       : /Users/daonik/Desktop/development/learning/taskbox/src/app/components/inbox-screen/inbox-screen.component.spec.ts
+[11:17:24] Including      : /Users/daonik/Desktop/development/learning/taskbox/src/app/components/pure-task-list/pure-task-list.component.html
+[11:17:24] Including      : /Users/daonik/Desktop/development/learning/taskbox/src/app/components/pure-task-list/pure-task-list.component.css
+[11:17:24] Ignoring       : /Users/daonik/Desktop/development/learning/taskbox/src/app/components/pure-task-list/pure-task-list.component.spec.ts
+[11:17:24] Including      : /Users/daonik/Desktop/development/learning/taskbox/src/app/components/pure-task-list/pure-task-list.component.ts
+[11:17:24] Including      : /Users/daonik/Desktop/development/learning/taskbox/src/app/components/task/task.component.html
+[11:17:24] Including      : /Users/daonik/Desktop/development/learning/taskbox/src/app/components/pure-task-list/pure-task-list.stories.ts
+[11:17:24] Including      : /Users/daonik/Desktop/development/learning/taskbox/src/app/components/task/task.component.css
+[11:17:24] Ignoring       : /Users/daonik/Desktop/development/learning/taskbox/src/app/components/task/task.component.spec.ts
+[11:17:24] Including      : /Users/daonik/Desktop/development/learning/taskbox/src/app/components/task/task.component.ts
+[11:17:24] Including      : /Users/daonik/Desktop/development/learning/taskbox/src/app/components/task-list/task-list.component.css
+[11:17:24] Including      : /Users/daonik/Desktop/development/learning/taskbox/src/app/components/task/task.stories.ts
+[11:17:24] Including      : /Users/daonik/Desktop/development/learning/taskbox/src/app/components/task-list/task-list.component.html
+[11:17:24] Including      : /Users/daonik/Desktop/development/learning/taskbox/src/app/components/task-list/task-list.component.ts
+[11:17:24] Ignoring       : /Users/daonik/Desktop/development/learning/taskbox/src/app/components/task-list/task-list.component.spec.ts
+[11:17:24] Including      : /Users/daonik/Desktop/development/learning/taskbox/.angular/cache/13.3.7/babel-webpack/0161a49a7f37034768d41d5889f06c1a.json
+[11:17:24] Including      : /Users/daonik/Desktop/development/learning/taskbox/.angular/cache/13.3.7/babel-webpack/00ff6db669754ab9c770c5a450a75a9f.json
+[11:17:24] Including      : /Users/daonik/Desktop/development/learning/taskbox/.angular/cache/13.3.7/babel-webpack/033a7011b9784ea4813a41ecf38aba51.json
+[11:17:24] Including      : /Users/daonik/Desktop/development/learning/taskbox/.angular/cache/13.3.7/babel-webpack/02a20e6840193b7267ba36730876da0f.json
+[11:17:24] Including      : /Users/daonik/Desktop/development/learning/taskbox/.angular/cache/13.3.7/babel-webpack/048c32f5ccfe4322187682d7f09bd332.json
+[11:17:24] Including      : /Users/daonik/Desktop/development/learning/taskbox/.angular/cache/13.3.7/babel-webpack/03c13445e993cbdbcc6056fb8894398b.json
+[11:17:24] Including      : /Users/daonik/Desktop/development/learning/taskbox/.angular/cache/13.3.7/babel-webpack/05b2e4e2e707da68c4287431f4257f06.json
+[11:17:24] Including      : /Users/daonik/Desktop/development/learning/taskbox/.angular/cache/13.3.7/babel-webpack/05cade3ec92c226c5febe2c3e8c86a5e.json
+[11:17:24] Including      : /Users/daonik/Desktop/development/learning/taskbox/.angular/cache/13.3.7/babel-webpack/05e8e6cd22448cabab0dba030c61a251.json
+[11:17:24] Including      : /Users/daonik/Desktop/development/learning/taskbox/.angular/cache/13.3.7/babel-webpack/08bed294b3b2cfa26aa0357b1a3c6c7e.json
+[11:17:24] Including      : /Users/daonik/Desktop/development/learning/taskbox/.angular/cache/13.3.7/babel-webpack/0719377dd2a22a9ea953793853ef1fbd.json
+[11:17:24] Including      : /Users/daonik/Desktop/development/learning/taskbox/.angular/cache/13.3.7/babel-webpack/0bdf95dd08c51e2c958ac5d1169f15b9.json
+[11:17:24] Including      : /Users/daonik/Desktop/development/learning/taskbox/.angular/cache/13.3.7/babel-webpack/0cb3e976cb62145f6a55a034b956ff08.json
+[11:17:24] Including      : /Users/daonik/Desktop/development/learning/taskbox/.angular/cache/13.3.7/babel-webpack/0dfb70e5c03f5b7766ff9d4f59f7ebe2.json
+[11:17:24] Including      : /Users/daonik/Desktop/development/learning/taskbox/.angular/cache/13.3.7/babel-webpack/0e6111190aa5398227e9c11682f323bb.json
+[11:17:24] Including      : /Users/daonik/Desktop/development/learning/taskbox/.angular/cache/13.3.7/babel-webpack/0b57061eaba72a27deb00419683b2b3e.json
+[11:17:24] Including      : /Users/daonik/Desktop/development/learning/taskbox/.angular/cache/13.3.7/babel-webpack/15cd1d1aeeaf62da386e2f15f05632b5.json
+[11:17:24] Including      : /Users/daonik/Desktop/development/learning/taskbox/.angular/cache/13.3.7/babel-webpack/15406703e4bc0dedc9671bc4383e439b.json
+[11:17:24] Including      : /Users/daonik/Desktop/development/learning/taskbox/.angular/cache/13.3.7/babel-webpack/12c1b1f1bc9f2e56dc307e0542ee7881.json
+[11:17:24] Including      : /Users/daonik/Desktop/development/learning/taskbox/.angular/cache/13.3.7/babel-webpack/199644ae6bc8f744114919ab5912a6a5.json
+[11:17:24] Including      : /Users/daonik/Desktop/development/learning/taskbox/.angular/cache/13.3.7/babel-webpack/1bdb21e8222fd62b428c1ac0da60e36d.json
+[11:17:24] Including      : /Users/daonik/Desktop/development/learning/taskbox/.angular/cache/13.3.7/babel-webpack/18b124985c2c4920fefa8358099ccc34.json
+[11:17:24] Including      : /Users/daonik/Desktop/development/learning/taskbox/.angular/cache/13.3.7/babel-webpack/1ced60c813bfc98220b41d9fd73a3b28.json
+[11:17:24] Including      : /Users/daonik/Desktop/development/learning/taskbox/.angular/cache/13.3.7/babel-webpack/1d444e7dc63f78e6a17c4b1168217967.json
+[11:17:24] Including      : /Users/daonik/Desktop/development/learning/taskbox/.angular/cache/13.3.7/babel-webpack/1bf8da3c39bb15e0ddc6c62a9d69d78e.json
+[11:17:24] Including      : /Users/daonik/Desktop/development/learning/taskbox/.angular/cache/13.3.7/babel-webpack/1d75d061817b4d1e185e2f5f2748aa73.json
+[11:17:24] Including      : /Users/daonik/Desktop/development/learning/taskbox/.angular/cache/13.3.7/babel-webpack/1d4e1775ebd87ddbe76c6767d392db98.json
+[11:17:24] Including      : /Users/daonik/Desktop/development/learning/taskbox/.angular/cache/13.3.7/babel-webpack/1e5a4d5a17f12d9d9dfb9e68d5711f19.json
+[11:17:24] Including      : /Users/daonik/Desktop/development/learning/taskbox/.angular/cache/13.3.7/babel-webpack/1eb4386c257b5f0524f56340b42b9e25.json
+[11:17:24] Including      : /Users/daonik/Desktop/development/learning/taskbox/.angular/cache/13.3.7/babel-webpack/1f09e9f97f82f8fb16f22848d8a7ac1e.json
+[11:17:24] Including      : /Users/daonik/Desktop/development/learning/taskbox/.angular/cache/13.3.7/babel-webpack/1f6060772d1a2ede26e0969958a4a7f3.json
+[11:17:24] Including      : /Users/daonik/Desktop/development/learning/taskbox/.angular/cache/13.3.7/babel-webpack/1fc5110b8b57880a2bb75711e693c33d.json
+[11:17:24] Including      : /Users/daonik/Desktop/development/learning/taskbox/.angular/cache/13.3.7/babel-webpack/206658a83c13ff7d0af02df9a6ea0864.json
+[11:17:24] Including      : /Users/daonik/Desktop/development/learning/taskbox/.angular/cache/13.3.7/babel-webpack/21f52258799c009be3eafdd4ada87245.json
+[11:17:24] Including      : /Users/daonik/Desktop/development/learning/taskbox/.angular/cache/13.3.7/babel-webpack/2347680290261752cdc79ae43e94cfd9.json
+[11:17:24] Including      : /Users/daonik/Desktop/development/learning/taskbox/.angular/cache/13.3.7/babel-webpack/22f724f39ec4ddd9fc96e365ab700f1e.json
+[11:17:24] Including      : /Users/daonik/Desktop/development/learning/taskbox/.angular/cache/13.3.7/babel-webpack/24c16a08625cc1a921f840fc27794de2.json
+[11:17:24] Including      : /Users/daonik/Desktop/development/learning/taskbox/.angular/cache/13.3.7/babel-webpack/2652806e463e1b0369620ae7907f3c30.json
+[11:17:24] Including      : /Users/daonik/Desktop/development/learning/taskbox/.angular/cache/13.3.7/babel-webpack/28cdea656320b5fe765af72c6e20cfae.json
+[11:17:24] Including      : /Users/daonik/Desktop/development/learning/taskbox/.angular/cache/13.3.7/babel-webpack/2a381acd5fa6a1764bdb7915c612890f.json
+[11:17:24] Including      : /Users/daonik/Desktop/development/learning/taskbox/.angular/cache/13.3.7/babel-webpack/2a6a4060c958ce425278c52c752d8a84.json
+[11:17:24] Including      : /Users/daonik/Desktop/development/learning/taskbox/.angular/cache/13.3.7/babel-webpack/2afbe24c86222128baa88ed0bdaf72f8.json
+[11:17:24] Including      : /Users/daonik/Desktop/development/learning/taskbox/.angular/cache/13.3.7/babel-webpack/2873e883d5c121d6c6455f1ec63e5bd8.json
+[11:17:24] Including      : /Users/daonik/Desktop/development/learning/taskbox/.angular/cache/13.3.7/babel-webpack/2b2216b1d5acf8e9e2f3c568a88aa4d7.json
+[11:17:24] Including      : /Users/daonik/Desktop/development/learning/taskbox/.angular/cache/13.3.7/babel-webpack/2fdb3f338ed5f1198031b394d404db9e.json
+[11:17:24] Including      : /Users/daonik/Desktop/development/learning/taskbox/.angular/cache/13.3.7/babel-webpack/30c7c45661d1cfec407e3ef15bf2aaea.json
+[11:17:24] Including      : /Users/daonik/Desktop/development/learning/taskbox/.angular/cache/13.3.7/babel-webpack/3290fb1bd3c3e8d7ad8422a4ad7f69e4.json
+[11:17:24] Including      : /Users/daonik/Desktop/development/learning/taskbox/.angular/cache/13.3.7/babel-webpack/33d2ed952d529665a1dd2bf014623adb.json
+[11:17:24] Including      : /Users/daonik/Desktop/development/learning/taskbox/.angular/cache/13.3.7/babel-webpack/3466b993d54b0d61e4e48be0e7a52a01.json
+[11:17:24] Including      : /Users/daonik/Desktop/development/learning/taskbox/.angular/cache/13.3.7/babel-webpack/350edbba2e64b99b9b4f64d8fec734c1.json
+[11:17:24] Including      : /Users/daonik/Desktop/development/learning/taskbox/.angular/cache/13.3.7/babel-webpack/36900c909be9513e3dc77f9d7eea6c09.json
+[11:17:24] Including      : /Users/daonik/Desktop/development/learning/taskbox/.angular/cache/13.3.7/babel-webpack/36ada207d5eaa8247950bb47fe803620.json
+[11:17:24] Including      : /Users/daonik/Desktop/development/learning/taskbox/.angular/cache/13.3.7/babel-webpack/3816cccc1ad2241b75513ef313642993.json
+[11:17:24] Including      : /Users/daonik/Desktop/development/learning/taskbox/.angular/cache/13.3.7/babel-webpack/38eca6d477da81ef0a1091237eb25381.json
+[11:17:24] Including      : /Users/daonik/Desktop/development/learning/taskbox/.angular/cache/13.3.7/babel-webpack/38f64c0c8481335e5f125434d2b51e4e.json
+[11:17:24] Including      : /Users/daonik/Desktop/development/learning/taskbox/.angular/cache/13.3.7/babel-webpack/391a3399a4d7a53ef1045ec7229c6ad7.json
+[11:17:24] Including      : /Users/daonik/Desktop/development/learning/taskbox/.angular/cache/13.3.7/babel-webpack/39a8351e14f193b0aad55b635f9579ca.json
+[11:17:24] Including      : /Users/daonik/Desktop/development/learning/taskbox/.angular/cache/13.3.7/babel-webpack/3b4965029aa7cebb41d691e276c26d64.json
+[11:17:24] Including      : /Users/daonik/Desktop/development/learning/taskbox/.angular/cache/13.3.7/babel-webpack/3cd565d47ddd0def6f6c59a4124a49e7.json
+[11:17:24] Including      : /Users/daonik/Desktop/development/learning/taskbox/.angular/cache/13.3.7/babel-webpack/3d3c970edf9171605acb44fbb79ee6a1.json
+[11:17:24] Including      : /Users/daonik/Desktop/development/learning/taskbox/.angular/cache/13.3.7/babel-webpack/3d61dd601a4759f391199dd13236dc90.json
+[11:17:24] Including      : /Users/daonik/Desktop/development/learning/taskbox/.angular/cache/13.3.7/babel-webpack/3f40f80c544c6ba128de49023925ab18.json
+[11:17:24] Including      : /Users/daonik/Desktop/development/learning/taskbox/.angular/cache/13.3.7/babel-webpack/401523867cbe9679f85e2daa51979039.json
+[11:17:24] Including      : /Users/daonik/Desktop/development/learning/taskbox/.angular/cache/13.3.7/babel-webpack/4233fb3bc14698d1717ebe14d45a51a4.json
+[11:17:24] Including      : /Users/daonik/Desktop/development/learning/taskbox/.angular/cache/13.3.7/babel-webpack/423be99b1aa31603fd42132048353a1a.json
+[11:17:24] Including      : /Users/daonik/Desktop/development/learning/taskbox/.angular/cache/13.3.7/babel-webpack/42f12e9664e6154094235921b9f093e5.json
+[11:17:24] Including      : /Users/daonik/Desktop/development/learning/taskbox/.angular/cache/13.3.7/babel-webpack/43da79a6eaac815a532c5dc870b40424.json
+[11:17:24] Including      : /Users/daonik/Desktop/development/learning/taskbox/.angular/cache/13.3.7/babel-webpack/4431b8b9b6cf7a47ef1e2c7aed450d1b.json
+[11:17:24] Including      : /Users/daonik/Desktop/development/learning/taskbox/.angular/cache/13.3.7/babel-webpack/45c1346d23a2f5ae0ab78c96772774c7.json
+[11:17:24] Including      : /Users/daonik/Desktop/development/learning/taskbox/.angular/cache/13.3.7/babel-webpack/4ac2993f8a4be4d60c6ff5d7012edaac.json
+[11:17:24] Including      : /Users/daonik/Desktop/development/learning/taskbox/.angular/cache/13.3.7/babel-webpack/4b1d8ef48b77c22e11eebc4582b01850.json
+[11:17:24] Including      : /Users/daonik/Desktop/development/learning/taskbox/.angular/cache/13.3.7/babel-webpack/4bb675c2c625a2b90f1fd54f57d27345.json
+[11:17:24] Including      : /Users/daonik/Desktop/development/learning/taskbox/.angular/cache/13.3.7/babel-webpack/4bd360cc736bd50c8d1874d22b1391a3.json
+[11:17:24] Including      : /Users/daonik/Desktop/development/learning/taskbox/.angular/cache/13.3.7/babel-webpack/4c7475b50729678270b4f8e66e549a5f.json
+[11:17:24] Including      : /Users/daonik/Desktop/development/learning/taskbox/.angular/cache/13.3.7/babel-webpack/4d6fa2afa6eb11ff26fed116e7653130.json
+[11:17:24] Including      : /Users/daonik/Desktop/development/learning/taskbox/.angular/cache/13.3.7/babel-webpack/4f7a10a7f1e0795ecd03d195e1f9c69d.json
+[11:17:24] Including      : /Users/daonik/Desktop/development/learning/taskbox/.angular/cache/13.3.7/babel-webpack/508df3dd101dbbfcac680e4ef54b33b0.json
+[11:17:24] Including      : /Users/daonik/Desktop/development/learning/taskbox/.angular/cache/13.3.7/babel-webpack/53b14483dc18732fa8a3ce2ebc36e5c5.json
+[11:17:24] Including      : /Users/daonik/Desktop/development/learning/taskbox/.angular/cache/13.3.7/babel-webpack/54285c0c12be8b69c72e591c525b03a7.json
+[11:17:24] Including      : /Users/daonik/Desktop/development/learning/taskbox/.angular/cache/13.3.7/babel-webpack/54d853f23ef4d3d3e17abb8a18529f95.json
+[11:17:24] Including      : /Users/daonik/Desktop/development/learning/taskbox/.angular/cache/13.3.7/babel-webpack/55f3963a4a649d7a2c1cd1ad6ed6c545.json
+[11:17:24] Including      : /Users/daonik/Desktop/development/learning/taskbox/.angular/cache/13.3.7/babel-webpack/56e46d6527a0c9363d91619a4d76472e.json
+[11:17:24] Including      : /Users/daonik/Desktop/development/learning/taskbox/.angular/cache/13.3.7/babel-webpack/58efe4f88f78143a02c8904022e1fca3.json
+[11:17:24] Including      : /Users/daonik/Desktop/development/learning/taskbox/.angular/cache/13.3.7/babel-webpack/5976c3b6e0c5507024278734fc712445.json
+[11:17:24] Including      : /Users/daonik/Desktop/development/learning/taskbox/.angular/cache/13.3.7/babel-webpack/5ae82e084a5d5683042990dbfd40df85.json
+[11:17:24] Including      : /Users/daonik/Desktop/development/learning/taskbox/.angular/cache/13.3.7/babel-webpack/5eab54b73eaf8c87ce3fb1db1ba31719.json
+[11:17:24] Including      : /Users/daonik/Desktop/development/learning/taskbox/.angular/cache/13.3.7/babel-webpack/60576a46dc15727f2ee9fe8c163f3e27.json
+[11:17:24] Including      : /Users/daonik/Desktop/development/learning/taskbox/.angular/cache/13.3.7/babel-webpack/62224d54a563a2e31b55279067d0003a.json
+[11:17:24] Including      : /Users/daonik/Desktop/development/learning/taskbox/.angular/cache/13.3.7/babel-webpack/6390aad08fae974a374b38504070e4ea.json
+[11:17:24] Including      : /Users/daonik/Desktop/development/learning/taskbox/.angular/cache/13.3.7/babel-webpack/63ab2ceb6930876f503a1a12af5d967e.json
+[11:17:24] Including      : /Users/daonik/Desktop/development/learning/taskbox/.angular/cache/13.3.7/babel-webpack/6713850d580130c96be07818a8e815a2.json
+[11:17:24] Including      : /Users/daonik/Desktop/development/learning/taskbox/.angular/cache/13.3.7/babel-webpack/673429bf3737d2e4ba3552a87d4f642a.json
+[11:17:24] Including      : /Users/daonik/Desktop/development/learning/taskbox/.angular/cache/13.3.7/babel-webpack/6734d85981edaac33356a679b0d9358e.json
+[11:17:24] Including      : /Users/daonik/Desktop/development/learning/taskbox/.angular/cache/13.3.7/babel-webpack/6ab212b050030757bdfde0f60fb0334a.json
+[11:17:24] Including      : /Users/daonik/Desktop/development/learning/taskbox/.angular/cache/13.3.7/babel-webpack/6b1e18959bd3a0598bcea3fc15f55c2a.json
+[11:17:24] Including      : /Users/daonik/Desktop/development/learning/taskbox/.angular/cache/13.3.7/babel-webpack/6cf30567d7158ab34c0d142e60f861bc.json
+[11:17:24] Including      : /Users/daonik/Desktop/development/learning/taskbox/.angular/cache/13.3.7/babel-webpack/6f6878ef8eaafae9bde64caa1e6dd475.json
+[11:17:24] Including      : /Users/daonik/Desktop/development/learning/taskbox/.angular/cache/13.3.7/babel-webpack/705bbd546025ade493e95c8318167aa2.json
+[11:17:24] Including      : /Users/daonik/Desktop/development/learning/taskbox/.angular/cache/13.3.7/babel-webpack/75fda4fac5d40fbe69c46550d44d3d9d.json
+[11:17:24] Including      : /Users/daonik/Desktop/development/learning/taskbox/.angular/cache/13.3.7/babel-webpack/78b463734b1ffc9e705f097de2b7ff96.json
+[11:17:24] Including      : /Users/daonik/Desktop/development/learning/taskbox/.angular/cache/13.3.7/babel-webpack/792e865ecb0b401a27e706ba51518fce.json
+[11:17:24] Including      : /Users/daonik/Desktop/development/learning/taskbox/.angular/cache/13.3.7/babel-webpack/799929e6550619317fe3cf41011a053d.json
+[11:17:24] Including      : /Users/daonik/Desktop/development/learning/taskbox/.angular/cache/13.3.7/babel-webpack/7a0ba2ca777eb11b2b1633a192b0774f.json
+[11:17:24] Including      : /Users/daonik/Desktop/development/learning/taskbox/.angular/cache/13.3.7/babel-webpack/788efdcdf9900f578d96fad63ef19c30.json
+[11:17:24] Including      : /Users/daonik/Desktop/development/learning/taskbox/.angular/cache/13.3.7/babel-webpack/7aa8c6243b01c358abdb41d3fad6ce2e.json
+[11:17:24] Including      : /Users/daonik/Desktop/development/learning/taskbox/.angular/cache/13.3.7/babel-webpack/7b2ca6f4154876b13ab605daf405641f.json
+[11:17:24] Including      : /Users/daonik/Desktop/development/learning/taskbox/.angular/cache/13.3.7/babel-webpack/7b0b62090d0179a58cf39801b13e8adb.json
+[11:17:24] Including      : /Users/daonik/Desktop/development/learning/taskbox/.angular/cache/13.3.7/babel-webpack/7be9621bb6ad704ac0e953a2b23eadb3.json
+[11:17:24] Including      : /Users/daonik/Desktop/development/learning/taskbox/.angular/cache/13.3.7/babel-webpack/7c4b16a7abd3c45f6190464e6ddb5d16.json
+[11:17:24] Including      : /Users/daonik/Desktop/development/learning/taskbox/.angular/cache/13.3.7/babel-webpack/7e6ca559226fcb8ed2554ed90c63dd0f.json
+[11:17:24] Including      : /Users/daonik/Desktop/development/learning/taskbox/.angular/cache/13.3.7/babel-webpack/7f9daa2d301e81fa0b72280a5485c1a2.json
+[11:17:24] Including      : /Users/daonik/Desktop/development/learning/taskbox/.angular/cache/13.3.7/babel-webpack/818dfd71e4786106ca5c426854f65ecd.json
+[11:17:24] Including      : /Users/daonik/Desktop/development/learning/taskbox/.angular/cache/13.3.7/babel-webpack/81b6b34bc91ea8408519becaacae5740.json
+[11:17:24] Including      : /Users/daonik/Desktop/development/learning/taskbox/.angular/cache/13.3.7/babel-webpack/86f4c79d59eeadf4d7c600b91e0f4f62.json
+[11:17:24] Including      : /Users/daonik/Desktop/development/learning/taskbox/.angular/cache/13.3.7/babel-webpack/8771fd352a1df7b1fd3eab3817b8d8bb.json
+[11:17:24] Including      : /Users/daonik/Desktop/development/learning/taskbox/.angular/cache/13.3.7/babel-webpack/8925f6aefec19d7eb7e7c24f642af15f.json
+[11:17:24] Including      : /Users/daonik/Desktop/development/learning/taskbox/.angular/cache/13.3.7/babel-webpack/8aded7c5a21d95996c382fc6fa204dcc.json
+[11:17:24] Including      : /Users/daonik/Desktop/development/learning/taskbox/.angular/cache/13.3.7/babel-webpack/8ba49ff220e7d1c149fd688ae8ed6e2c.json
+[11:17:24] Including      : /Users/daonik/Desktop/development/learning/taskbox/.angular/cache/13.3.7/babel-webpack/8c3040258a4ad2186926ef7c21f18952.json
+[11:17:24] Including      : /Users/daonik/Desktop/development/learning/taskbox/.angular/cache/13.3.7/babel-webpack/8c8d227258b904b11571a0691c4897ea.json
+[11:17:24] Including      : /Users/daonik/Desktop/development/learning/taskbox/.angular/cache/13.3.7/babel-webpack/8d56684e886363c4453c43f917ffc8d4.json
+[11:17:24] Including      : /Users/daonik/Desktop/development/learning/taskbox/.angular/cache/13.3.7/babel-webpack/8dd1a0b314bdcb999beb2c7ead313864.json
+[11:17:24] Including      : /Users/daonik/Desktop/development/learning/taskbox/.angular/cache/13.3.7/babel-webpack/8f1fc0fb74d466291bb5ba8ae7c42542.json
+[11:17:24] Including      : /Users/daonik/Desktop/development/learning/taskbox/.angular/cache/13.3.7/babel-webpack/9069c734e73836f27b77ff98ecabb9b2.json
+[11:17:24] Including      : /Users/daonik/Desktop/development/learning/taskbox/.angular/cache/13.3.7/babel-webpack/914e287cf04857067640edf99e1cd59a.json
+[11:17:24] Including      : /Users/daonik/Desktop/development/learning/taskbox/.angular/cache/13.3.7/babel-webpack/9192606c1f730d89074501c90f28e4ca.json
+[11:17:24] Including      : /Users/daonik/Desktop/development/learning/taskbox/.angular/cache/13.3.7/babel-webpack/9241fddc55839ca40bad6564337b9416.json
+[11:17:24] Including      : /Users/daonik/Desktop/development/learning/taskbox/.angular/cache/13.3.7/babel-webpack/924cc63c32519ccd7fdb003c532af93f.json
+[11:17:24] Including      : /Users/daonik/Desktop/development/learning/taskbox/.angular/cache/13.3.7/babel-webpack/92a92e527c3047daf79e87768fe76b82.json
+[11:17:24] Including      : /Users/daonik/Desktop/development/learning/taskbox/.angular/cache/13.3.7/babel-webpack/97084e44877b514e798b2420e7fe2a05.json
+[11:17:24] Including      : /Users/daonik/Desktop/development/learning/taskbox/.angular/cache/13.3.7/babel-webpack/92898646035edaf326c5d83ff5c0c853.json
+[11:17:24] Including      : /Users/daonik/Desktop/development/learning/taskbox/.angular/cache/13.3.7/babel-webpack/9950f7d0b6fb2e1d14852cafb7e128cd.json
+[11:17:24] Including      : /Users/daonik/Desktop/development/learning/taskbox/.angular/cache/13.3.7/babel-webpack/99e5eb4e391b36c871108d25aea16879.json
+[11:17:24] Including      : /Users/daonik/Desktop/development/learning/taskbox/.angular/cache/13.3.7/babel-webpack/9a5168bc86b17140727feae8130a8506.json
+[11:17:24] Including      : /Users/daonik/Desktop/development/learning/taskbox/.angular/cache/13.3.7/babel-webpack/9b847058fed55cfb5a378fbbdf4f6741.json
+[11:17:24] Including      : /Users/daonik/Desktop/development/learning/taskbox/.angular/cache/13.3.7/babel-webpack/9f1093ebab924f17d3459f5cf47fea6f.json
+[11:17:24] Including      : /Users/daonik/Desktop/development/learning/taskbox/.angular/cache/13.3.7/babel-webpack/9bbf29bc995ef31b49e8a13b291a68aa.json
+[11:17:24] Including      : /Users/daonik/Desktop/development/learning/taskbox/.angular/cache/13.3.7/babel-webpack/9fbae87023e85b9f25f460158db47e35.json
+[11:17:24] Including      : /Users/daonik/Desktop/development/learning/taskbox/.angular/cache/13.3.7/babel-webpack/a1ea810f4e9469a3c905ee95e917fda6.json
+[11:17:24] Including      : /Users/daonik/Desktop/development/learning/taskbox/.angular/cache/13.3.7/babel-webpack/a39913dc348fa84cd16231f47011597c.json
+[11:17:24] Including      : /Users/daonik/Desktop/development/learning/taskbox/.angular/cache/13.3.7/babel-webpack/a5afb29e5659b5073d3de5804dceca8c.json
+[11:17:24] Including      : /Users/daonik/Desktop/development/learning/taskbox/.angular/cache/13.3.7/babel-webpack/a5e275059aaebe5c93c307b9d963020e.json
+[11:17:24] Including      : /Users/daonik/Desktop/development/learning/taskbox/.angular/cache/13.3.7/babel-webpack/a6e28035e544cc4d38056fa95c6b6c63.json
+[11:17:24] Including      : /Users/daonik/Desktop/development/learning/taskbox/.angular/cache/13.3.7/babel-webpack/a735da45d3c7a3c55407523bffcda9af.json
+[11:17:24] Including      : /Users/daonik/Desktop/development/learning/taskbox/.angular/cache/13.3.7/babel-webpack/a7ec11b16913a736a3b801e6146d663f.json
+[11:17:24] Including      : /Users/daonik/Desktop/development/learning/taskbox/.angular/cache/13.3.7/babel-webpack/a8c28298dd30c636977a70870f214b07.json
+[11:17:24] Including      : /Users/daonik/Desktop/development/learning/taskbox/.angular/cache/13.3.7/babel-webpack/aaf4133130dc084fa943ce6f2461623d.json
+[11:17:24] Including      : /Users/daonik/Desktop/development/learning/taskbox/.angular/cache/13.3.7/babel-webpack/abf7734cb8f77837674da18d8d455ffb.json
+[11:17:24] Including      : /Users/daonik/Desktop/development/learning/taskbox/.angular/cache/13.3.7/babel-webpack/acefb9e14483774db806da92639883b8.json
+[11:17:24] Including      : /Users/daonik/Desktop/development/learning/taskbox/.angular/cache/13.3.7/babel-webpack/ad097d653893edb1c61865f29e9bb40d.json
+[11:17:24] Including      : /Users/daonik/Desktop/development/learning/taskbox/.angular/cache/13.3.7/babel-webpack/ad1902dc5a5fe286edff801e7abac935.json
+[11:17:24] Including      : /Users/daonik/Desktop/development/learning/taskbox/.angular/cache/13.3.7/babel-webpack/aedb423fced5d560f78e265cd58d2425.json
+[11:17:24] Including      : /Users/daonik/Desktop/development/learning/taskbox/.angular/cache/13.3.7/babel-webpack/af4574b8d2f3738e4e06eb41976d883b.json
+[11:17:24] Including      : /Users/daonik/Desktop/development/learning/taskbox/.angular/cache/13.3.7/babel-webpack/afd1576171a217e5c7d4707718ac4110.json
+[11:17:24] Including      : /Users/daonik/Desktop/development/learning/taskbox/.angular/cache/13.3.7/babel-webpack/b25df03aba360545a4036f3ce0a813af.json
+[11:17:24] Including      : /Users/daonik/Desktop/development/learning/taskbox/.angular/cache/13.3.7/babel-webpack/b55fb2630920c703257674e480972a98.json
+[11:17:24] Including      : /Users/daonik/Desktop/development/learning/taskbox/.angular/cache/13.3.7/babel-webpack/b58be9cf78b40aa3177c54664918735a.json
+[11:17:24] Including      : /Users/daonik/Desktop/development/learning/taskbox/.angular/cache/13.3.7/babel-webpack/b63539b3f7d3b2ede03ccf206cf488b7.json
+[11:17:24] Including      : /Users/daonik/Desktop/development/learning/taskbox/.angular/cache/13.3.7/babel-webpack/b7745de6f9ebdbca09f618d216bbbbf5.json
+[11:17:24] Including      : /Users/daonik/Desktop/development/learning/taskbox/.angular/cache/13.3.7/babel-webpack/b79c2e43302ebf8d39701b57d712d3fb.json
+[11:17:24] Including      : /Users/daonik/Desktop/development/learning/taskbox/.angular/cache/13.3.7/babel-webpack/b8934ce4e5eb6d9af1fdda71ce99651e.json
+[11:17:24] Including      : /Users/daonik/Desktop/development/learning/taskbox/.angular/cache/13.3.7/babel-webpack/b8020e69e42ac159661effe6a1c18033.json
+[11:17:24] Including      : /Users/daonik/Desktop/development/learning/taskbox/.angular/cache/13.3.7/babel-webpack/bb0c15a6967f14c5736f1efc445ebed5.json
+[11:17:24] Including      : /Users/daonik/Desktop/development/learning/taskbox/.angular/cache/13.3.7/babel-webpack/bc2c9817461a35876602a14c4329b7f5.json
+[11:17:24] Including      : /Users/daonik/Desktop/development/learning/taskbox/.angular/cache/13.3.7/babel-webpack/bc57c02495a118a3448bc605d8336726.json
+[11:17:24] Including      : /Users/daonik/Desktop/development/learning/taskbox/.angular/cache/13.3.7/babel-webpack/bcd7c5f4cd84a0a94e8377377e15605a.json
+[11:17:24] Including      : /Users/daonik/Desktop/development/learning/taskbox/.angular/cache/13.3.7/babel-webpack/bde779a34e0e72ef2cb1e62e32c037c3.json
+[11:17:24] Including      : /Users/daonik/Desktop/development/learning/taskbox/.angular/cache/13.3.7/babel-webpack/bfa64b243f5927237421a5e25a84cb94.json
+[11:17:24] Including      : /Users/daonik/Desktop/development/learning/taskbox/.angular/cache/13.3.7/babel-webpack/c0a5b7791c99fdf85b79bae1689ba63b.json
+[11:17:24] Including      : /Users/daonik/Desktop/development/learning/taskbox/.angular/cache/13.3.7/babel-webpack/c119dea9089e21e673d237f792528390.json
+[11:17:24] Including      : /Users/daonik/Desktop/development/learning/taskbox/.angular/cache/13.3.7/babel-webpack/c077aad573f63795137c7e9b88b25f49.json
+[11:17:24] Including      : /Users/daonik/Desktop/development/learning/taskbox/.angular/cache/13.3.7/babel-webpack/c2b44c33c8e0120d5c7784c6f2f04252.json
+[11:17:24] Including      : /Users/daonik/Desktop/development/learning/taskbox/.angular/cache/13.3.7/babel-webpack/c2b77f0948ecea9df4abf8d38a48b060.json
+[11:17:24] Including      : /Users/daonik/Desktop/development/learning/taskbox/.angular/cache/13.3.7/babel-webpack/c21b1f48b468ee641cee6f8ddea28f2b.json
+[11:17:24] Including      : /Users/daonik/Desktop/development/learning/taskbox/.angular/cache/13.3.7/babel-webpack/c12177d899f3f81cdbfb260712098d57.json
+[11:17:24] Including      : /Users/daonik/Desktop/development/learning/taskbox/.angular/cache/13.3.7/babel-webpack/c68d172940d15a00677773e55339d72b.json
+[11:17:24] Including      : /Users/daonik/Desktop/development/learning/taskbox/.angular/cache/13.3.7/babel-webpack/c7f634b2b209cd6f13cb14972e99693b.json
+[11:17:24] Including      : /Users/daonik/Desktop/development/learning/taskbox/.angular/cache/13.3.7/babel-webpack/c7551b416f5382c9ea4adcb990ecb5fc.json
+[11:17:24] Including      : /Users/daonik/Desktop/development/learning/taskbox/.angular/cache/13.3.7/babel-webpack/c817735fc9453b7c0a3398581681354e.json
+[11:17:24] Including      : /Users/daonik/Desktop/development/learning/taskbox/.angular/cache/13.3.7/babel-webpack/c97459468d16a30850a1fdc6e4a46c1d.json
+[11:17:24] Including      : /Users/daonik/Desktop/development/learning/taskbox/.angular/cache/13.3.7/babel-webpack/c98346c671d6d28be85891306e033c93.json
+[11:17:24] Including      : /Users/daonik/Desktop/development/learning/taskbox/.angular/cache/13.3.7/babel-webpack/cb2eb24ea99c7d68d6a6e1c40282c0b8.json
+[11:17:24] Including      : /Users/daonik/Desktop/development/learning/taskbox/.angular/cache/13.3.7/babel-webpack/cb5bfe97429fb9ab86cfb3c032e55597.json
+[11:17:24] Including      : /Users/daonik/Desktop/development/learning/taskbox/.angular/cache/13.3.7/babel-webpack/cc6e4cffd256dfaea0fe40bd3068875b.json
+[11:17:24] Including      : /Users/daonik/Desktop/development/learning/taskbox/.angular/cache/13.3.7/babel-webpack/cc8a4e24b00b82f6ba542003500c346a.json
+[11:17:24] Including      : /Users/daonik/Desktop/development/learning/taskbox/.angular/cache/13.3.7/babel-webpack/cd95def12330511e7e5688d64280640c.json
+[11:17:24] Including      : /Users/daonik/Desktop/development/learning/taskbox/.angular/cache/13.3.7/babel-webpack/cdd623c0129b6afb00b8c9f86de79f33.json
+[11:17:24] Including      : /Users/daonik/Desktop/development/learning/taskbox/.angular/cache/13.3.7/babel-webpack/ce21e923c6984aae399796e0173b6d9a.json
+[11:17:24] Including      : /Users/daonik/Desktop/development/learning/taskbox/.angular/cache/13.3.7/babel-webpack/cf86ac9397f4c1bfdd8847ed5cbabd02.json
+[11:17:24] Including      : /Users/daonik/Desktop/development/learning/taskbox/.angular/cache/13.3.7/babel-webpack/d19f513f9980caf2eabff9b61351baa4.json
+[11:17:24] Including      : /Users/daonik/Desktop/development/learning/taskbox/.angular/cache/13.3.7/babel-webpack/cf34da27f64cf255481854873fc5c5d4.json
+[11:17:24] Including      : /Users/daonik/Desktop/development/learning/taskbox/.angular/cache/13.3.7/babel-webpack/d4afa8753e83fc0314555b772f074eb6.json
+[11:17:24] Including      : /Users/daonik/Desktop/development/learning/taskbox/.angular/cache/13.3.7/babel-webpack/d4b702fe1febd76bf16d5cae9ab1fd60.json
+[11:17:24] Including      : /Users/daonik/Desktop/development/learning/taskbox/.angular/cache/13.3.7/babel-webpack/d3afaccc24757abc5fbb9cfeac497fcf.json
+[11:17:24] Including      : /Users/daonik/Desktop/development/learning/taskbox/.angular/cache/13.3.7/babel-webpack/d683856c1ae4fe2203ede037066fd96a.json
+[11:17:24] Including      : /Users/daonik/Desktop/development/learning/taskbox/.angular/cache/13.3.7/babel-webpack/d6a02060c88af98ebb2d8e9b0fc35ca0.json
+[11:17:24] Including      : /Users/daonik/Desktop/development/learning/taskbox/.angular/cache/13.3.7/babel-webpack/d82a20383a30368ac15dce600809d9e6.json
+[11:17:24] Including      : /Users/daonik/Desktop/development/learning/taskbox/.angular/cache/13.3.7/babel-webpack/d625d1fbb24e78c34598a6e0b4387c78.json
+[11:17:24] Including      : /Users/daonik/Desktop/development/learning/taskbox/.angular/cache/13.3.7/babel-webpack/d884cc9d4f8f14ed43c9094ca20eb1b8.json
+[11:17:24] Including      : /Users/daonik/Desktop/development/learning/taskbox/.angular/cache/13.3.7/babel-webpack/d97d411c0894d3d96b0926fe5073b3f0.json
+[11:17:24] Including      : /Users/daonik/Desktop/development/learning/taskbox/.angular/cache/13.3.7/babel-webpack/dd9f5dd8f533fae8fd090be281c9b9f6.json
+[11:17:24] Including      : /Users/daonik/Desktop/development/learning/taskbox/.angular/cache/13.3.7/babel-webpack/d9e9c254c57381d7524d3f367dbd2ac2.json
+[11:17:24] Including      : /Users/daonik/Desktop/development/learning/taskbox/.angular/cache/13.3.7/babel-webpack/d823fb4ec0dde74c93f247281cfda64c.json
+[11:17:24] Including      : /Users/daonik/Desktop/development/learning/taskbox/.angular/cache/13.3.7/babel-webpack/ddb5c92824d233b22242d3d06a71f006.json
+[11:17:24] Including      : /Users/daonik/Desktop/development/learning/taskbox/.angular/cache/13.3.7/babel-webpack/de00044818cacf1507ed42612102bd72.json
+[11:17:24] Including      : /Users/daonik/Desktop/development/learning/taskbox/.angular/cache/13.3.7/babel-webpack/de9cb8f0e3ef1c382c9c965c69ed4973.json
+[11:17:24] Including      : /Users/daonik/Desktop/development/learning/taskbox/.angular/cache/13.3.7/babel-webpack/def7b1201107ec4ed9ce46720a435e66.json
+[11:17:24] Including      : /Users/daonik/Desktop/development/learning/taskbox/.angular/cache/13.3.7/babel-webpack/e014141264755b63cdc946f3af82d138.json
+[11:17:24] Including      : /Users/daonik/Desktop/development/learning/taskbox/.angular/cache/13.3.7/babel-webpack/e16ea784e4cb43db1f55acb2447611dd.json
+[11:17:24] Including      : /Users/daonik/Desktop/development/learning/taskbox/.angular/cache/13.3.7/babel-webpack/e26b26b87e7d28a4cf44e4f8ec63b05d.json
+[11:17:24] Including      : /Users/daonik/Desktop/development/learning/taskbox/.angular/cache/13.3.7/babel-webpack/e2932e446cf22dbbf968d99c1d3725fd.json
+[11:17:24] Including      : /Users/daonik/Desktop/development/learning/taskbox/.angular/cache/13.3.7/babel-webpack/e3815f52a6819542b9d7dd3b66c6ebc6.json
+[11:17:24] Including      : /Users/daonik/Desktop/development/learning/taskbox/.angular/cache/13.3.7/babel-webpack/deae073fd88a6084c8a6f770ae7fa008.json
+[11:17:24] Including      : /Users/daonik/Desktop/development/learning/taskbox/.angular/cache/13.3.7/babel-webpack/e44a4250f832aa3a5b260b85807e7f36.json
+[11:17:24] Including      : /Users/daonik/Desktop/development/learning/taskbox/.angular/cache/13.3.7/babel-webpack/e472b3ce2a6594cd59235c5833c8f18c.json
+[11:17:24] Including      : /Users/daonik/Desktop/development/learning/taskbox/.angular/cache/13.3.7/babel-webpack/e5134efd7ea9b871ee2846d50514003e.json
+[11:17:24] Including      : /Users/daonik/Desktop/development/learning/taskbox/.angular/cache/13.3.7/babel-webpack/e5b92e3509e0bc0cd5abf1aade494bd7.json
+[11:17:24] Including      : /Users/daonik/Desktop/development/learning/taskbox/.angular/cache/13.3.7/babel-webpack/e728b40858ffb457e72469766919fa5d.json
+[11:17:24] Including      : /Users/daonik/Desktop/development/learning/taskbox/.angular/cache/13.3.7/babel-webpack/e773eec43a81b2e960fd4c031c0c9128.json
+[11:17:24] Including      : /Users/daonik/Desktop/development/learning/taskbox/.angular/cache/13.3.7/babel-webpack/e7e0917c53258c8d56514ac94b6ecfcf.json
+[11:17:24] Including      : /Users/daonik/Desktop/development/learning/taskbox/.angular/cache/13.3.7/babel-webpack/e8973ee71c1b28453bafd4e88f1fe550.json
+[11:17:24] Including      : /Users/daonik/Desktop/development/learning/taskbox/.angular/cache/13.3.7/babel-webpack/e8cc3f5af015be33959fef2617960021.json
+[11:17:24] Including      : /Users/daonik/Desktop/development/learning/taskbox/.angular/cache/13.3.7/babel-webpack/e8f2da77f60635019d2fcb33d55dee5d.json
+[11:17:24] Including      : /Users/daonik/Desktop/development/learning/taskbox/.angular/cache/13.3.7/babel-webpack/ea7a9a152a0bdb0fdb3a99056243bbd7.json
+[11:17:24] Including      : /Users/daonik/Desktop/development/learning/taskbox/.angular/cache/13.3.7/babel-webpack/eabad006040640f4557958d49aa6862f.json
+[11:17:24] Including      : /Users/daonik/Desktop/development/learning/taskbox/.angular/cache/13.3.7/babel-webpack/ec960327f28896c57d5f813cfa2b5ea6.json
+[11:17:24] Including      : /Users/daonik/Desktop/development/learning/taskbox/.angular/cache/13.3.7/babel-webpack/edca676062da94fe5ae7a333f2cd37f9.json
+[11:17:24] Including      : /Users/daonik/Desktop/development/learning/taskbox/.angular/cache/13.3.7/babel-webpack/eebb959b96ba607ae77309f80b0cafe3.json
+[11:17:24] Including      : /Users/daonik/Desktop/development/learning/taskbox/.angular/cache/13.3.7/babel-webpack/eeda3282a5d78d4b892b7471540c594c.json
+[11:17:24] Including      : /Users/daonik/Desktop/development/learning/taskbox/.angular/cache/13.3.7/babel-webpack/f112f1772d557837d7fb1aa1431d80a4.json
+[11:17:24] Including      : /Users/daonik/Desktop/development/learning/taskbox/.angular/cache/13.3.7/babel-webpack/f4da845579325d03bc5f3a7e565e1671.json
+[11:17:24] Including      : /Users/daonik/Desktop/development/learning/taskbox/.angular/cache/13.3.7/babel-webpack/f63cc711d0dcefd9cc5dfff39a5f3cf8.json
+[11:17:24] Including      : /Users/daonik/Desktop/development/learning/taskbox/.angular/cache/13.3.7/babel-webpack/f7deeb42785bf36cc9539441db722008.json
+[11:17:24] Including      : /Users/daonik/Desktop/development/learning/taskbox/.angular/cache/13.3.7/babel-webpack/f835bccf44013cc927c2113cf430b2be.json
+[11:17:24] Including      : /Users/daonik/Desktop/development/learning/taskbox/.angular/cache/13.3.7/babel-webpack/f9145a20b2e9954f02708d97091b11d1.json
+[11:17:24] Including      : /Users/daonik/Desktop/development/learning/taskbox/.angular/cache/13.3.7/babel-webpack/f9b304050cc4de1de92e8a6ab5b1295f.json
+[11:17:24] Including      : /Users/daonik/Desktop/development/learning/taskbox/.angular/cache/13.3.7/babel-webpack/f9cb1c6c8a009449aca2acff05db1ca0.json
+[11:17:24] Including      : /Users/daonik/Desktop/development/learning/taskbox/.angular/cache/13.3.7/babel-webpack/fc9a934c6378ae9ef6bd09664ae7957f.json
+[11:17:24] Including      : /Users/daonik/Desktop/development/learning/taskbox/.angular/cache/13.3.7/babel-webpack/fd8bfb6f1e7d2d48bc511a7a1927dd40.json
+[11:17:24] Including      : /Users/daonik/Desktop/development/learning/taskbox/.angular/cache/13.3.7/babel-webpack/ffcc97f2897d25426465993d330825cd.json
+[11:17:24] Including      : /Users/daonik/Desktop/development/learning/taskbox/.angular/cache/13.3.7/angular-webpack/5dc5f50bc5ae8bb5a7225ec3a3118cd872c0abb1/0.pack
+[11:17:24] Including      : /Users/daonik/Desktop/development/learning/taskbox/.angular/cache/13.3.7/angular-webpack/5dc5f50bc5ae8bb5a7225ec3a3118cd872c0abb1/3.pack
+[11:17:24] Including      : /Users/daonik/Desktop/development/learning/taskbox/.angular/cache/13.3.7/angular-webpack/5dc5f50bc5ae8bb5a7225ec3a3118cd872c0abb1/2.pack
+[11:17:24] Including      : /Users/daonik/Desktop/development/learning/taskbox/.angular/cache/13.3.7/angular-webpack/5dc5f50bc5ae8bb5a7225ec3a3118cd872c0abb1/4.pack
+[11:17:24] Including      : /Users/daonik/Desktop/development/learning/taskbox/.angular/cache/13.3.7/angular-webpack/5dc5f50bc5ae8bb5a7225ec3a3118cd872c0abb1/6.pack
+[11:17:24] Including      : /Users/daonik/Desktop/development/learning/taskbox/.angular/cache/13.3.7/angular-webpack/5dc5f50bc5ae8bb5a7225ec3a3118cd872c0abb1/5.pack
+[11:17:24] Including      : /Users/daonik/Desktop/development/learning/taskbox/.angular/cache/13.3.7/angular-webpack/5dc5f50bc5ae8bb5a7225ec3a3118cd872c0abb1/index.pack
+[11:17:24] Including      : /Users/daonik/Desktop/development/learning/taskbox/.angular/cache/13.3.7/angular-webpack/5dc5f50bc5ae8bb5a7225ec3a3118cd872c0abb1/7.pack
+[11:17:24] Including      : /Users/daonik/Desktop/development/learning/taskbox/.angular/cache/13.3.7/angular-webpack/5dc5f50bc5ae8bb5a7225ec3a3118cd872c0abb1/index.pack.old
+[11:17:24] Including      : /Users/daonik/Desktop/development/learning/taskbox/.angular/cache/13.3.7/angular-webpack/5dc5f50bc5ae8bb5a7225ec3a3118cd872c0abb1/1.pack
+[11:17:24] Including      : /Users/daonik/Desktop/development/learning/taskbox/.angular/cache/13.3.7/angular-webpack/496f2afe46eb5edb2432c7f9ac5dd5e516761f0b/1.pack
+[11:17:24] Including      : /Users/daonik/Desktop/development/learning/taskbox/.angular/cache/13.3.7/angular-webpack/496f2afe46eb5edb2432c7f9ac5dd5e516761f0b/2.pack
+[11:17:24] Including      : /Users/daonik/Desktop/development/learning/taskbox/.angular/cache/13.3.7/angular-webpack/496f2afe46eb5edb2432c7f9ac5dd5e516761f0b/4.pack
+[11:17:24] Including      : /Users/daonik/Desktop/development/learning/taskbox/.angular/cache/13.3.7/angular-webpack/496f2afe46eb5edb2432c7f9ac5dd5e516761f0b/5.pack
+[11:17:24] Including      : /Users/daonik/Desktop/development/learning/taskbox/.angular/cache/13.3.7/angular-webpack/496f2afe46eb5edb2432c7f9ac5dd5e516761f0b/6.pack
+[11:17:24] Including      : /Users/daonik/Desktop/development/learning/taskbox/.angular/cache/13.3.7/angular-webpack/496f2afe46eb5edb2432c7f9ac5dd5e516761f0b/0.pack
+[11:17:24] Including      : /Users/daonik/Desktop/development/learning/taskbox/.angular/cache/13.3.7/angular-webpack/496f2afe46eb5edb2432c7f9ac5dd5e516761f0b/7.pack
+[11:17:24] Including      : /Users/daonik/Desktop/development/learning/taskbox/.angular/cache/13.3.7/angular-webpack/496f2afe46eb5edb2432c7f9ac5dd5e516761f0b/index.pack
+[11:17:24] Including      : /Users/daonik/Desktop/development/learning/taskbox/.angular/cache/13.3.7/angular-webpack/496f2afe46eb5edb2432c7f9ac5dd5e516761f0b/index.pack.old
+[11:17:24] Including      : /Users/daonik/Desktop/development/learning/taskbox/.angular/cache/13.3.7/angular-webpack/496f2afe46eb5edb2432c7f9ac5dd5e516761f0b/3.pack
+[11:17:24] Searching package.json file
+[11:17:24] package.json file found
+[11:17:24] Processing package.json dependencies
+[11:17:24] Searching README.md, CHANGELOG.md, CONTRIBUTING.md, LICENSE.md, TODO.md files
+[11:17:24] README.md file found
+[11:17:24] Error during /Users/daonik/Desktop/development/learning/taskbox/CHANGELOG read
+[11:17:24] Continuing without CHANGELOG.md file
+[11:17:24] Error during /Users/daonik/Desktop/development/learning/taskbox/CONTRIBUTING read
+[11:17:24] Continuing without CONTRIBUTING.md file
+[11:17:24] LICENSE.md file found
+[11:17:24] Error during /Users/daonik/Desktop/development/learning/taskbox/TODO read
+[11:17:24] Continuing without TODO.md file
+[11:17:24] Get dependencies data
+[11:17:24] parsing        : /Users/daonik/Desktop/development/learning/taskbox/jest-config/setup.ts
+[11:17:24] parsing        : /Users/daonik/Desktop/development/learning/taskbox/src/main.ts
+[11:17:24] parsing        : /Users/daonik/Desktop/development/learning/taskbox/src/polyfills.ts
+[11:17:24] parsing        : /Users/daonik/Desktop/development/learning/taskbox/jest-config/__mocks__/globalMocks.ts
+[11:17:24] parsing        : /Users/daonik/Desktop/development/learning/taskbox/src/app/app.component.ts
+[11:17:24] found          : AppComponent
+[11:17:24] parsing        : /Users/daonik/Desktop/development/learning/taskbox/src/app/app.module.ts
+[11:17:24] found          : AppModule
+[11:17:24]                : - imports:
+[11:17:24]                : 	- BrowserModule
+[11:17:24]                : 	- TaskModule
+[11:17:24]                : 	- NgxsModule
+[11:17:24]                : 	- NgxsReduxDevtoolsPluginModule
+[11:17:24]                : 	- NgxsLoggerPluginModule
+[11:17:24]                : - declarations:
+[11:17:24]                : 	- AppComponent
+[11:17:24]                : 	- InboxScreenComponent
+[11:17:24]                : 	- PureInboxScreenComponent
+[11:17:24]                : - bootstrap:
+[11:17:24]                : 	- AppComponent
+[11:17:24] parsing        : /Users/daonik/Desktop/development/learning/taskbox/src/environments/environment.ts
+[11:17:24] found          : environment
+[11:17:24] parsing        : /Users/daonik/Desktop/development/learning/taskbox/src/stories/Header.stories.ts
+[11:17:24] found          : Template
+[11:17:24] found          : LoggedIn
+[11:17:24] found          : LoggedOut
+[11:17:24] parsing        : /Users/daonik/Desktop/development/learning/taskbox/src/stories/Button.stories.ts
+[11:17:24] found          : Template
+[11:17:24] found          : Primary
+[11:17:24] found          : Secondary
+[11:17:24] found          : Large
+[11:17:24] found          : Small
+[11:17:24] parsing        : /Users/daonik/Desktop/development/learning/taskbox/src/stories/Page.stories.ts
+[11:17:24] found          : Template
+[11:17:24] found          : LoggedOut
+[11:17:24] found          : LoggedIn
+[11:17:24] parsing        : /Users/daonik/Desktop/development/learning/taskbox/src/environments/environment.prod.ts
+[11:17:24] found          : environment
+[11:17:24] parsing        : /Users/daonik/Desktop/development/learning/taskbox/src/stories/User.ts
+[11:17:24] found          : User
+[11:17:24] parsing        : /Users/daonik/Desktop/development/learning/taskbox/src/stories/button.component.ts
+[11:17:24] found          : ButtonComponent
+[11:17:24] parsing        : /Users/daonik/Desktop/development/learning/taskbox/src/stories/header.component.ts
+[11:17:24] found          : HeaderComponent
+[11:17:24] parsing        : /Users/daonik/Desktop/development/learning/taskbox/src/stories/page.component.ts
+[11:17:24] found          : PageComponent
+[11:17:24] parsing        : /Users/daonik/Desktop/development/learning/taskbox/src/app/components/task.module.ts
+[11:17:24] found          : TaskModule
+[11:17:24]                : - imports:
+[11:17:24]                : 	- CommonModule
+[11:17:24]                : 	- NgxsModule
+[11:17:24]                : - exports:
+[11:17:24]                : 	- TaskComponent
+[11:17:24]                : 	- TaskListComponent
+[11:17:24]                : - declarations:
+[11:17:24]                : 	- TaskComponent
+[11:17:24]                : 	- TaskListComponent
+[11:17:24]                : 	- PureTaskListComponent
+[11:17:24] parsing        : /Users/daonik/Desktop/development/learning/taskbox/src/app/state/task.state.ts
+[11:17:24] found          : actions
+[11:17:24] found          : ArchiveTask
+[11:17:24] found          : PinTask
+[11:17:24] found          : AppError
+[11:17:24] found          : defaultTasks
+[11:17:24] found          : TaskStateModel
+[11:17:24] found          : TasksState
+[11:17:24] parsing        : /Users/daonik/Desktop/development/learning/taskbox/src/app/models/task.model.ts
+[11:17:24] found          : Task
+[11:17:24] parsing        : /Users/daonik/Desktop/development/learning/taskbox/src/app/components/pure-inbox-screen/pure-inbox-screen.component.ts
+[11:17:24] found          : PureInboxScreenComponent
+[11:17:24] parsing        : /Users/daonik/Desktop/development/learning/taskbox/src/app/components/pure-inbox-screen/pure-inbox-screen.stories.ts
+[11:17:24] found          : Template
+[11:17:24] found          : Default
+[11:17:24] found          : Error
+[11:17:24] found          : WithInteractions
+[11:17:24] parsing        : /Users/daonik/Desktop/development/learning/taskbox/src/app/components/inbox-screen/inbox-screen.component.ts
+[11:17:24] found          : InboxScreenComponent
+[11:17:24] parsing        : /Users/daonik/Desktop/development/learning/taskbox/src/app/components/pure-task-list/pure-task-list.component.ts
+[11:17:24] found          : PureTaskListComponent
+[11:17:24] parsing        : /Users/daonik/Desktop/development/learning/taskbox/src/app/components/pure-task-list/pure-task-list.stories.ts
+[11:17:24] found          : Template
+[11:17:24] found          : Default
+[11:17:24] found          : WithPinnedTasks
+[11:17:24] found          : Loading
+[11:17:24] found          : Empty
+[11:17:24] parsing        : /Users/daonik/Desktop/development/learning/taskbox/src/app/components/task/task.component.ts
+[11:17:24] found          : TaskComponent
+[11:17:24] parsing        : /Users/daonik/Desktop/development/learning/taskbox/src/app/components/task/task.stories.ts
+[11:17:24] found          : actionsData
+[11:17:24] found          : Template
+[11:17:24] found          : Default
+[11:17:24] found          : Pinned
+[11:17:24] found          : Archived
+[11:17:24] parsing        : /Users/daonik/Desktop/development/learning/taskbox/src/app/components/task-list/task-list.component.ts
+[11:17:24] found          : TaskListComponent
+[11:17:24] -------------------
+[11:17:24] Project statistics 
+[11:17:24] - files      : 351
+[11:17:24] - module     : 2
+[11:17:24] - component  : 9
+[11:17:24] - injectable : 1
+[11:17:24] - class      : 3
+[11:17:24] - interface  : 3
+[11:17:24] -------------------
+[11:17:24] Prepare components
+[11:17:24]  AppComponent has a templateUrl, include it
+[11:17:24]  AppComponent has styleUrls, include them
+[11:17:24]  ButtonComponent has styleUrls, include them
+[11:17:24]  HeaderComponent has styleUrls, include them
+[11:17:24]  InboxScreenComponent has a templateUrl, include it
+[11:17:24]  InboxScreenComponent has styleUrls, include them
+[11:17:24]  PageComponent has styleUrls, include them
+[11:17:24]  PureInboxScreenComponent has a templateUrl, include it
+[11:17:24]  PureInboxScreenComponent has styleUrls, include them
+[11:17:24]  PureTaskListComponent has a templateUrl, include it
+[11:17:24]  PureTaskListComponent has styleUrls, include them
+[11:17:24]  TaskComponent has a templateUrl, include it
+[11:17:24]  TaskComponent has styleUrls, include them
+[11:17:24]  TaskListComponent has a templateUrl, include it
+[11:17:24]  TaskListComponent has styleUrls, include them
+[11:17:24] Prepare modules
+[11:17:24] Prepare injectables
+[11:17:24] Prepare classes
+[11:17:24] Prepare interfaces
+[11:17:24] Prepare miscellaneous
+[11:17:24] Process documentation coverage report
+[11:17:24] Generating documentation in export format json
+[11:17:24] Documentation generated in ./ in 0.256 seconds
+info @storybook/angular v6.5.7
+info 
+info => Cleaning outputDir: /var/folders/3h/tf8mh0kn04s0jz_ryb214d540000gn/T/chromatic--22004-oatM5xe9QGlO
+info => Loading presets
+info => Compiling manager..
+info => Compiling preview..
+info Addon-docs: using MDX1
+info => Using implicit CSS loaders
+info => Loading angular-cli config for angular >= 13.0.0
+info => Using angular project with "tsConfig:/Users/daonik/Desktop/development/learning/taskbox/.storybook/tsconfig.json"
+WARN Your Storybook startup uses a solution that will not be supported in version 7.0. 
+WARN You must use angular builder to have an explicit configuration on the project used in angular.json
+WARN Read more at:
+WARN - https://github.com/storybookjs/storybook/blob/next/MIGRATION.md#sb-angular-builder)
+WARN - https://github.com/storybookjs/storybook/blob/next/MIGRATION.md#angular13)
+info => Using angular project "taskbox:build" for configuring Storybook
+info => Using default Webpack5 setup
+<s> [webpack.Progress] 0% 
+
+<s> [webpack.Progress] 1% setup before run
+<s> [webpack.Progress] 1% setup before run NodeEnvironmentPlugin
+<s> [webpack.Progress] 1% setup before run
+<s> [webpack.Progress] 2% setup run
+<s> [webpack.Progress] 2% setup run
+<s> [webpack.Progress] 4% setup normal module factory
+<s> [webpack.Progress] 4% setup normal module factory CaseSensitivePathsPlugin
+<s> [webpack.Progress] 4% setup normal module factory
+<s> [webpack.Progress] 5% setup context module factory
+<s> [webpack.Progress] 5% setup context module factory
+<s> [webpack.Progress] 6% setup before compile
+<s> [webpack.Progress] 6% setup before compile angular-compiler
+<s> [webpack.Progress] 6% setup before compile ProgressPlugin
+<s> [webpack.Progress] 6% setup before compile
+<s> [webpack.Progress] 7% setup compile
+<s> [webpack.Progress] 7% setup compile ExternalsPlugin
+<s> [webpack.Progress] 7% setup compile
+<s> [webpack.Progress] 8% setup compilation
+<s> [webpack.Progress] 8% setup compilation CopyPlugin
+<s> [webpack.Progress] 8% setup compilation angular-compiler
+<s> [webpack.Progress] 8% setup compilation mini-css-extract-plugin
+<s> [webpack.Progress] 8% setup compilation ArrayPushCallbackChunkFormatPlugin
+<s> [webpack.Progress] 8% setup compilation JsonpChunkLoadingPlugin
+<s> [webpack.Progress] 8% setup compilation StartupChunkDependenciesPlugin
+<s> [webpack.Progress] 8% setup compilation ImportScriptsChunkLoadingPlugin
+<s> [webpack.Progress] 8% setup compilation FetchCompileWasmPlugin
+<s> [webpack.Progress] 8% setup compilation FetchCompileAsyncWasmPlugin
+<s> [webpack.Progress] 8% setup compilation WorkerPlugin
+<s> [webpack.Progress] 8% setup compilation SplitChunksPlugin
+<s> [webpack.Progress] 8% setup compilation RuntimeChunkPlugin
+<s> [webpack.Progress] 8% setup compilation ResolverCachePlugin
+<s> [webpack.Progress] 8% setup compilation HtmlWebpackPlugin
+<s> [webpack.Progress] 8% setup compilation
+<s> [webpack.Progress] 9% setup compilation
+<s> [webpack.Progress] 9% setup compilation named-chunks-plugin
+<s> [webpack.Progress] 9% setup compilation DedupeModuleResolvePlugin
+<s> [webpack.Progress] 9% setup compilation AnyComponentStyleBudgetChecker
+<s> [webpack.Progress] 9% setup compilation mini-css-extract-plugin
+<s> [webpack.Progress] 9% setup compilation SuppressExtractedTextChunks
+<s> [webpack.Progress] 9% setup compilation DefinePlugin
+<s> [webpack.Progress] 9% setup compilation ProvidePlugin
+<s> [webpack.Progress] 9% setup compilation ProgressPlugin
+<s> [webpack.Progress] 9% setup compilation ChunkPrefetchPreloadPlugin
+<s> [webpack.Progress] 9% setup compilation SourceMapDevToolPlugin
+<s> [webpack.Progress] 9% setup compilation JavascriptModulesPlugin
+<s> [webpack.Progress] 9% setup compilation JsonModulesPlugin
+<s> [webpack.Progress] 9% setup compilation AssetModulesPlugin
+<s> [webpack.Progress] 9% setup compilation EntryPlugin
+<s> [webpack.Progress] 9% setup compilation EntryPlugin
+<s> [webpack.Progress] 9% setup compilation EntryPlugin
+<s> [webpack.Progress] 9% setup compilation EntryPlugin
+<s> [webpack.Progress] 9% setup compilation EntryPlugin
+<s> [webpack.Progress] 9% setup compilation EntryPlugin
+<s> [webpack.Progress] 9% setup compilation EntryPlugin
+<s> [webpack.Progress] 9% setup compilation EntryPlugin
+<s> [webpack.Progress] 9% setup compilation EntryPlugin
+<s> [webpack.Progress] 9% setup compilation EntryPlugin
+<s> [webpack.Progress] 9% setup compilation EntryPlugin
+<s> [webpack.Progress] 9% setup compilation EntryPlugin
+<s> [webpack.Progress] 9% setup compilation EntryPlugin
+<s> [webpack.Progress] 9% setup compilation EntryPlugin
+<s> [webpack.Progress] 9% setup compilation EntryPlugin
+<s> [webpack.Progress] 9% setup compilation EntryPlugin
+<s> [webpack.Progress] 9% setup compilation EntryPlugin
+<s> [webpack.Progress] 9% setup compilation EntryPlugin
+<s> [webpack.Progress] 9% setup compilation RuntimePlugin
+<s> [webpack.Progress] 9% setup compilation InferAsyncModulesPlugin
+<s> [webpack.Progress] 9% setup compilation DataUriPlugin
+<s> [webpack.Progress] 9% setup compilation FileUriPlugin
+<s> [webpack.Progress] 9% setup compilation CompatibilityPlugin
+<s> [webpack.Progress] 9% setup compilation HarmonyModulesPlugin
+<s> [webpack.Progress] 9% setup compilation AMDPlugin
+<s> [webpack.Progress] 9% setup compilation RequireJsStuffPlugin
+<s> [webpack.Progress] 9% setup compilation CommonJsPlugin
+<s> [webpack.Progress] 9% setup compilation LoaderPlugin
+<s> [webpack.Progress] 9% setup compilation LoaderPlugin
+<s> [webpack.Progress] 9% setup compilation NodeStuffPlugin
+<s> [webpack.Progress] 9% setup compilation APIPlugin
+<s> [webpack.Progress] 9% setup compilation ExportsInfoApiPlugin
+<s> [webpack.Progress] 9% setup compilation WebpackIsIncludedPlugin
+<s> [webpack.Progress] 9% setup compilation ConstPlugin
+<s> [webpack.Progress] 9% setup compilation UseStrictPlugin
+<s> [webpack.Progress] 9% setup compilation RequireIncludePlugin
+<s> [webpack.Progress] 9% setup compilation RequireEnsurePlugin
+<s> [webpack.Progress] 9% setup compilation RequireContextPlugin
+<s> [webpack.Progress] 9% setup compilation ImportPlugin
+<s> [webpack.Progress] 9% setup compilation RequireContextPlugin
+<s> [webpack.Progress] 9% setup compilation SystemPlugin
+<s> [webpack.Progress] 9% setup compilation ImportMetaPlugin
+<s> [webpack.Progress] 9% setup compilation URLPlugin
+<s> [webpack.Progress] 9% setup compilation DefaultStatsFactoryPlugin
+<s> [webpack.Progress] 9% setup compilation DefaultStatsPresetPlugin
+<s> [webpack.Progress] 9% setup compilation DefaultStatsPrinterPlugin
+<s> [webpack.Progress] 9% setup compilation JavascriptMetaInfoPlugin
+<s> [webpack.Progress] 9% setup compilation EnsureChunkConditionsPlugin
+<s> [webpack.Progress] 9% setup compilation RemoveEmptyChunksPlugin
+<s> [webpack.Progress] 9% setup compilation MergeDuplicateChunksPlugin
+<s> [webpack.Progress] 9% setup compilation FlagIncludedChunksPlugin
+<s> [webpack.Progress] 9% setup compilation SideEffectsFlagPlugin
+<s> [webpack.Progress] 9% setup compilation FlagDependencyExportsPlugin
+<s> [webpack.Progress] 9% setup compilation FlagDependencyUsagePlugin
+<s> [webpack.Progress] 9% setup compilation InnerGraphPlugin
+<s> [webpack.Progress] 9% setup compilation MangleExportsPlugin
+<s> [webpack.Progress] 9% setup compilation ModuleConcatenationPlugin
+<s> [webpack.Progress] 9% setup compilation NoEmitOnErrorsPlugin
+<s> [webpack.Progress] 9% setup compilation RealContentHashPlugin
+<s> [webpack.Progress] 9% setup compilation WasmFinalizeExportsPlugin
+<s> [webpack.Progress] 9% setup compilation NamedModuleIdsPlugin
+<s> [webpack.Progress] 9% setup compilation DeterministicChunkIdsPlugin
+<s> [webpack.Progress] 9% setup compilation DefinePlugin
+<s> [webpack.Progress] 9% setup compilation TerserPlugin
+<s> [webpack.Progress] 9% setup compilation TemplatedPathPlugin
+<s> [webpack.Progress] 9% setup compilation RecordIdsPlugin
+<s> [webpack.Progress] 9% setup compilation WarnCaseSensitiveModulesPlugin
+<s> [webpack.Progress] 9% setup compilation IgnoreWarningsPlugin
+<s> [webpack.Progress] 9% setup compilation
+<s> [webpack.Progress] 10% building
+<s> [webpack.Progress] 10% building 0/1 entries 0/0 dependencies 0/0 modules
+<s> [webpack.Progress] 10% building import loader ./node_modules/@angular-devkit/build-angular/src/babel/webpack-loader.js
+<s> [webpack.Progress] 10% building import loader ./node_modules/babel-loader/lib/index.js
+<s> [webpack.Progress] 10% building 0/18 entries 3/18 dependencies 0/3 modules
+<s> [webpack.Progress] 10% building import loader ./node_modules/mini-css-extract-plugin/dist/loader.js
+<s> [webpack.Progress] 10% building import loader ./node_modules/css-loader/dist/cjs.js
+<s> [webpack.Progress] 10% building import loader ./node_modules/postcss-loader/dist/cjs.js
+<s> [webpack.Progress] 10% building 0/18 entries 13/18 dependencies 0/13 modules
+<s> [webpack.Progress] 10% building import loader ./node_modules/@ngtools/webpack/src/ivy/index.js
+<s> [webpack.Progress] 10% building 0/18 entries 14/19 dependencies 0/14 modules
+<s> [webpack.Progress] 13% building 1/18 entries 97/147 dependencies 2/57 modules
+<s> [webpack.Progress] 13% building import loader ./node_modules/@storybook/source-loader/dist/cjs/index.js
+<s> [webpack.Progress] 13% building 1/18 entries 153/219 dependencies 6/83 modules
+<s> [webpack.Progress] 16% building 2/18 entries 213/248 dependencies 12/118 modules
+<s> [webpack.Progress] 19% building 3/18 entries 595/641 dependencies 68/237 modules
+<s> [webpack.Progress] 19% building 3/18 entries 1158/1200 dependencies 121/365 modules
+<s> [webpack.Progress] 22% building 4/18 entries 1355/1523 dependencies 198/390 modules
+<s> [webpack.Progress] 22% building 4/18 entries 1446/1523 dependencies 202/400 modules
+<s> [webpack.Progress] 22% building 4/18 entries 1669/2000 dependencies 231/444 modules
+<s> [webpack.Progress] 22% building 4/18 entries 2800/2827 dependencies 295/866 modules
+<s> [webpack.Progress] 22% building 4/18 entries 3400/3497 dependencies 342/929 modules
+<s> [webpack.Progress] 22% building 4/18 entries 4200/4335 dependencies 492/1020 modules
+<s> [webpack.Progress] 22% building 4/18 entries 4733/4858 dependencies 747/1100 modules
+<s> [webpack.Progress] 22% building 4/18 entries 4800/4858 dependencies 748/1126 modules
+<s> [webpack.Progress] 22% building 4/18 entries 5500/5588 dependencies 999/1332 modules
+<s> [webpack.Progress] 22% building 4/18 entries 6000/6080 dependencies 1172/1536 modules
+<s> [webpack.Progress] 24% building 4/18 entries 6200/6214 dependencies 1291/1616 modules
+<s> [webpack.Progress] 26% building 4/18 entries 6457/6500 dependencies 1475/1653 modules
+<s> [webpack.Progress] 27% building 5/18 entries 6703/6732 dependencies 1584/1690 modules
+<s> [webpack.Progress] 28% building 6/18 entries 6703/6732 dependencies 1584/1690 modules
+<s> [webpack.Progress] 31% building 7/18 entries 6703/6732 dependencies 1584/1690 modules
+<s> [webpack.Progress] 34% building 8/18 entries 6703/6732 dependencies 1584/1690 modules
+<s> [webpack.Progress] 37% building 9/18 entries 6703/6732 dependencies 1584/1690 modules
+<s> [webpack.Progress] 40% building 10/18 entries 6703/6732 dependencies 1584/1690 modules
+<s> [webpack.Progress] 43% building 11/18 entries 6703/6732 dependencies 1584/1690 modules
+<s> [webpack.Progress] 46% building 12/18 entries 6703/6732 dependencies 1584/1690 modules
+<s> [webpack.Progress] 49% building 13/18 entries 6703/6732 dependencies 1584/1690 modules
+<s> [webpack.Progress] 52% building 14/18 entries 6866/6881 dependencies 1673/1726 modules
+<s> [webpack.Progress] 55% building 15/18 entries 6949/6953 dependencies 1715/1763 modules
+<s> [webpack.Progress] 58% building 16/18 entries 6949/6953 dependencies 1715/1763 modules
+<s> [webpack.Progress] 61% building 17/18 entries 6960/6961 dependencies 1741/1766 modules
+<s> [webpack.Progress] 64% building 18/18 entries 6962/6962 dependencies 1767/1767 modules
+<s> [webpack.Progress] 65% building
+<s> [webpack.Progress] 69% building finish
+<s> [webpack.Progress] 69% building finish
+<s> [webpack.Progress] 70% sealing finish module graph
+<s> [webpack.Progress] 70% sealing finish module graph angular-compiler
+<s> [webpack.Progress] 70% sealing finish module graph ResolverCachePlugin
+<s> [webpack.Progress] 70% sealing finish module graph InferAsyncModulesPlugin
+<s> [webpack.Progress] 70% sealing finish module graph FlagDependencyExportsPlugin
+<s> [webpack.Progress] 70% sealing finish module graph InnerGraphPlugin
+<s> [webpack.Progress] 70% sealing finish module graph WasmFinalizeExportsPlugin
+<s> [webpack.Progress] 70% sealing finish module graph
+<s> [webpack.Progress] 70% sealing plugins
+<s> [webpack.Progress] 70% sealing plugins WarnCaseSensitiveModulesPlugin
+<s> [webpack.Progress] 70% sealing plugins
+<s> [webpack.Progress] 71% sealing dependencies optimization
+<s> [webpack.Progress] 71% sealing dependencies optimization SideEffectsFlagPlugin
+<s> [webpack.Progress] 71% sealing dependencies optimization FlagDependencyUsagePlugin
+<s> [webpack.Progress] 71% sealing dependencies optimization
+<s> [webpack.Progress] 71% sealing after dependencies optimization
+<s> [webpack.Progress] 71% sealing after dependencies optimization
+<s> [webpack.Progress] 72% sealing chunk graph
+<s> [webpack.Progress] 72% sealing chunk graph
+<s> [webpack.Progress] 73% sealing after chunk graph
+<s> [webpack.Progress] 73% sealing after chunk graph
+<s> [webpack.Progress] 73% sealing optimizing
+<s> [webpack.Progress] 73% sealing optimizing
+<s> [webpack.Progress] 74% sealing module optimization
+<s> [webpack.Progress] 74% sealing module optimization
+<s> [webpack.Progress] 75% sealing after module optimization
+<s> [webpack.Progress] 75% sealing after module optimization
+<s> [webpack.Progress] 75% sealing chunk optimization
+<s> [webpack.Progress] 75% sealing chunk optimization EnsureChunkConditionsPlugin
+<s> [webpack.Progress] 75% sealing chunk optimization RemoveEmptyChunksPlugin
+<s> [webpack.Progress] 75% sealing chunk optimization MergeDuplicateChunksPlugin
+<s> [webpack.Progress] 75% sealing chunk optimization SplitChunksPlugin
+<s> [webpack.Progress] 75% sealing chunk optimization RemoveEmptyChunksPlugin
+<s> [webpack.Progress] 75% sealing chunk optimization
+<s> [webpack.Progress] 76% sealing after chunk optimization
+<s> [webpack.Progress] 76% sealing after chunk optimization
+<s> [webpack.Progress] 77% sealing module and chunk tree optimization
+<s> [webpack.Progress] 77% sealing module and chunk tree optimization PersistentChildCompilerSingletonPlugin
+<s> [webpack.Progress] 77% sealing module and chunk tree optimization
+<s> [webpack.Progress] 77% sealing after module and chunk tree optimization
+<s> [webpack.Progress] 77% sealing after module and chunk tree optimization
+<s> [webpack.Progress] 78% sealing chunk modules optimization
+<s> [webpack.Progress] 78% sealing chunk modules optimization ModuleConcatenationPlugin
+<s> [webpack.Progress] 78% sealing chunk modules optimization
+<s> [webpack.Progress] 78% sealing after chunk modules optimization
+<s> [webpack.Progress] 78% sealing after chunk modules optimization
+<s> [webpack.Progress] 79% sealing module reviving
+<s> [webpack.Progress] 79% sealing module reviving RecordIdsPlugin
+<s> [webpack.Progress] 79% sealing module reviving
+<s> [webpack.Progress] 80% sealing before module ids
+<s> [webpack.Progress] 80% sealing before module ids
+<s> [webpack.Progress] 80% sealing module ids
+<s> [webpack.Progress] 80% sealing module ids NamedModuleIdsPlugin
+<s> [webpack.Progress] 80% sealing module ids
+<s> [webpack.Progress] 81% sealing module id optimization
+<s> [webpack.Progress] 81% sealing module id optimization
+<s> [webpack.Progress] 82% sealing module id optimization
+<s> [webpack.Progress] 82% sealing module id optimization
+<s> [webpack.Progress] 82% sealing chunk reviving
+<s> [webpack.Progress] 82% sealing chunk reviving RecordIdsPlugin
+<s> [webpack.Progress] 82% sealing chunk reviving
+<s> [webpack.Progress] 83% sealing before chunk ids
+<s> [webpack.Progress] 83% sealing before chunk ids
+<s> [webpack.Progress] 84% sealing chunk ids
+<s> [webpack.Progress] 84% sealing chunk ids DeterministicChunkIdsPlugin
+<s> [webpack.Progress] 84% sealing chunk ids
+<s> [webpack.Progress] 84% sealing chunk id optimization
+<s> [webpack.Progress] 84% sealing chunk id optimization FlagIncludedChunksPlugin
+<s> [webpack.Progress] 84% sealing chunk id optimization
+<s> [webpack.Progress] 85% sealing after chunk id optimization
+<s> [webpack.Progress] 85% sealing after chunk id optimization
+<s> [webpack.Progress] 86% sealing record modules
+<s> [webpack.Progress] 86% sealing record modules RecordIdsPlugin
+<s> [webpack.Progress] 86% sealing record modules
+<s> [webpack.Progress] 86% sealing record chunks
+<s> [webpack.Progress] 86% sealing record chunks RecordIdsPlugin
+<s> [webpack.Progress] 86% sealing record chunks
+<s> [webpack.Progress] 87% sealing module hashing
+<s> [webpack.Progress] 87% sealing module hashing
+<s> [webpack.Progress] 87% sealing code generation
+<s> [webpack.Progress] 87% sealing code generation
+<s> [webpack.Progress] 88% sealing runtime requirements
+<s> [webpack.Progress] 88% sealing runtime requirements
+<s> [webpack.Progress] 89% sealing hashing
+<s> [webpack.Progress] 89% sealing hashing
+<s> [webpack.Progress] 89% sealing after hashing
+<s> [webpack.Progress] 89% sealing after hashing
+<s> [webpack.Progress] 90% sealing record hash
+<s> [webpack.Progress] 90% sealing record hash
+<s> [webpack.Progress] 91% sealing module assets processing
+<s> [webpack.Progress] 91% sealing module assets processing
+<s> [webpack.Progress] 91% sealing chunk assets processing
+<s> [webpack.Progress] 91% sealing chunk assets processing
+<s> [webpack.Progress] 92% sealing asset processing
+<s> [webpack.Progress] 92% sealing asset processing copy-webpack-plugin
+<s> [webpack.Progress] 92% sealing asset processing PersistentChildCompilerSingletonPlugin
+<s> [webpack.Progress] 92% sealing asset processing TerserPlugin
+info => Manager built (25 s)
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin main.css generate SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin main.css generated SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin main.7a917eb7.iframe.bundle.js generate SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin main.7a917eb7.iframe.bundle.js generated SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin runtime~main.afb30572.iframe.bundle.js generate SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin runtime~main.afb30572.iframe.bundle.js generated SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin 747.95e2f60b.iframe.bundle.js generate SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin 747.95e2f60b.iframe.bundle.js generated SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin 366.e65d64af.iframe.bundle.js generate SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin 366.e65d64af.iframe.bundle.js generated SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin 565.ba6d8f2d.iframe.bundle.js generate SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin 565.ba6d8f2d.iframe.bundle.js generated SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin 239.9de6d7de.iframe.bundle.js generate SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin 239.9de6d7de.iframe.bundle.js generated SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin 471.72618a6b.iframe.bundle.js generate SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin 471.72618a6b.iframe.bundle.js generated SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin 345.793cee98.iframe.bundle.js generate SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin 345.793cee98.iframe.bundle.js generated SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin 39.65b56293.iframe.bundle.js generate SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin 39.65b56293.iframe.bundle.js generated SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin 996.646a9a3f.iframe.bundle.js generate SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin 996.646a9a3f.iframe.bundle.js generated SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin 225.ff116299.iframe.bundle.js generate SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin 225.ff116299.iframe.bundle.js generated SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin 291.e2d3f128.iframe.bundle.js generate SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin 291.e2d3f128.iframe.bundle.js generated SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin 726.2ced0bb0.iframe.bundle.js generate SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin 726.2ced0bb0.iframe.bundle.js generated SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin resolve sources
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin 726.2ced0bb0.iframe.bundle.js attach SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin 726.2ced0bb0.iframe.bundle.js attached SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin resolve sources
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin
+<s> [webpack.Progress] 92% sealing asset processing HtmlWebpackPlugin
+<s> [webpack.Progress] 92% sealing asset processing HtmlWebpackPlugin
+<s> [webpack.Progress] 92% sealing asset processing HtmlWebpackPlugin resolve sources
+<s> [webpack.Progress] 92% sealing asset processing HtmlWebpackPlugin
+<s> [webpack.Progress] 92% sealing asset processing RealContentHashPlugin
+<s> [webpack.Progress] 92% sealing asset processing RealContentHashPlugin
+<s> [webpack.Progress] 92% sealing asset processing RealContentHashPlugin main.104abb24.iframe.bundle.js generate SourceMap
+<s> [webpack.Progress] 92% sealing asset processing RealContentHashPlugin main.104abb24.iframe.bundle.js generated SourceMap
+<s> [webpack.Progress] 92% sealing asset processing RealContentHashPlugin runtime~main.f0dc9577.iframe.bundle.js generate SourceMap
+<s> [webpack.Progress] 92% sealing asset processing RealContentHashPlugin runtime~main.f0dc9577.iframe.bundle.js generated SourceMap
+<s> [webpack.Progress] 92% sealing asset processing RealContentHashPlugin 747.2e592bfe.iframe.bundle.js generate SourceMap
+<s> [webpack.Progress] 92% sealing asset processing RealContentHashPlugin 747.2e592bfe.iframe.bundle.js generated SourceMap
+<s> [webpack.Progress] 92% sealing asset processing RealContentHashPlugin 345.b8f4061f.iframe.bundle.js generate SourceMap
+<s> [webpack.Progress] 92% sealing asset processing RealContentHashPlugin 345.b8f4061f.iframe.bundle.js generated SourceMap
+<s> [webpack.Progress] 92% sealing asset processing RealContentHashPlugin 996.66e30629.iframe.bundle.js generate SourceMap
+<s> [webpack.Progress] 92% sealing asset processing RealContentHashPlugin 996.66e30629.iframe.bundle.js generated SourceMap
+<s> [webpack.Progress] 92% sealing asset processing RealContentHashPlugin 225.adf1b44b.iframe.bundle.js generate SourceMap
+<s> [webpack.Progress] 92% sealing asset processing RealContentHashPlugin 225.adf1b44b.iframe.bundle.js generated SourceMap
+<s> [webpack.Progress] 92% sealing asset processing RealContentHashPlugin 366.1064568a.iframe.bundle.js generate SourceMap
+<s> [webpack.Progress] 92% sealing asset processing RealContentHashPlugin 366.1064568a.iframe.bundle.js generated SourceMap
+<s> [webpack.Progress] 92% sealing asset processing RealContentHashPlugin 565.c9971965.iframe.bundle.js generate SourceMap
+<s> [webpack.Progress] 92% sealing asset processing RealContentHashPlugin 565.c9971965.iframe.bundle.js generated SourceMap
+<s> [webpack.Progress] 92% sealing asset processing RealContentHashPlugin 239.43bc22d7.iframe.bundle.js generate SourceMap
+<s> [webpack.Progress] 92% sealing asset processing RealContentHashPlugin 239.43bc22d7.iframe.bundle.js generated SourceMap
+<s> [webpack.Progress] 92% sealing asset processing RealContentHashPlugin 471.ea523b9d.iframe.bundle.js generate SourceMap
+<s> [webpack.Progress] 92% sealing asset processing RealContentHashPlugin 471.ea523b9d.iframe.bundle.js generated SourceMap
+<s> [webpack.Progress] 92% sealing asset processing RealContentHashPlugin 39.2ed10874.iframe.bundle.js generate SourceMap
+<s> [webpack.Progress] 92% sealing asset processing RealContentHashPlugin 39.2ed10874.iframe.bundle.js generated SourceMap
+<s> [webpack.Progress] 92% sealing asset processing RealContentHashPlugin 291.4044512f.iframe.bundle.js generate SourceMap
+<s> [webpack.Progress] 92% sealing asset processing RealContentHashPlugin 291.4044512f.iframe.bundle.js generated SourceMap
+<s> [webpack.Progress] 92% sealing asset processing RealContentHashPlugin resolve sources
+<s> [webpack.Progress] 92% sealing asset processing RealContentHashPlugin
+<s> [webpack.Progress] 92% sealing asset processing AnyComponentStyleBudgetChecker
+<s> [webpack.Progress] 92% sealing asset processing
+<s> [webpack.Progress] 93% sealing after asset optimization
+<s> [webpack.Progress] 93% sealing after asset optimization
+<s> [webpack.Progress] 93% sealing recording
+<s> [webpack.Progress] 93% sealing recording
+<s> [webpack.Progress] 94% sealing after seal
+<s> [webpack.Progress] 94% sealing after seal
+<s> [webpack.Progress] 95% emitting emit
+<s> [webpack.Progress] 95% emitting emit
+<s> [webpack.Progress] 98% emitting after emit
+<s> [webpack.Progress] 98% emitting after emit SizeLimitsPlugin
+<s> [webpack.Progress] 98% emitting after emit
+<s> [webpack.Progress] 99% done plugins
+<s> [webpack.Progress] 99% done plugins CaseSensitivePathsPlugin
+<s> [webpack.Progress] 99% done plugins
+<s> [webpack.Progress] 99% 
+
+<s> [webpack.Progress] 99% cache store build dependencies
+<s> [webpack.Progress] 99% cache store build dependencies
+<s> [webpack.Progress] 99% cache begin idle
+<s> [webpack.Progress] 99% cache begin idle
+<s> [webpack.Progress] 100% 
+
+info => Preview built (31 s)
+WARN /Users/daonik/Desktop/development/learning/taskbox/src/app/app.component.ts is part of the TypeScript compilation but it's unused.
+WARN Add only entry points to the 'files' or 'include' properties in your tsconfig.
+WARN /Users/daonik/Desktop/development/learning/taskbox/src/app/app.module.ts is part of the TypeScript compilation but it's unused.
+WARN Add only entry points to the 'files' or 'include' properties in your tsconfig.
+WARN /Users/daonik/Desktop/development/learning/taskbox/src/app/components/inbox-screen/inbox-screen.component.ts is part of the TypeScript compilation but it's unused.
+WARN Add only entry points to the 'files' or 'include' properties in your tsconfig.
+WARN /Users/daonik/Desktop/development/learning/taskbox/src/environments/environment.prod.ts is part of the TypeScript compilation but it's unused.
+WARN Add only entry points to the 'files' or 'include' properties in your tsconfig.
+WARN /Users/daonik/Desktop/development/learning/taskbox/src/environments/environment.ts is part of the TypeScript compilation but it's unused.
+WARN Add only entry points to the 'files' or 'include' properties in your tsconfig.
+WARN /Users/daonik/Desktop/development/learning/taskbox/src/main.ts is part of the TypeScript compilation but it's unused.
+WARN Add only entry points to the 'files' or 'include' properties in your tsconfig.
+WARN /Users/daonik/Desktop/development/learning/taskbox/src/stories/Button.stories.ts is part of the TypeScript compilation but it's unused.
+WARN Add only entry points to the 'files' or 'include' properties in your tsconfig.
+WARN /Users/daonik/Desktop/development/learning/taskbox/src/stories/Header.stories.ts is part of the TypeScript compilation but it's unused.
+WARN Add only entry points to the 'files' or 'include' properties in your tsconfig.
+WARN /Users/daonik/Desktop/development/learning/taskbox/src/stories/Page.stories.ts is part of the TypeScript compilation but it's unused.
+WARN Add only entry points to the 'files' or 'include' properties in your tsconfig.
+WARN /Users/daonik/Desktop/development/learning/taskbox/src/stories/User.ts is part of the TypeScript compilation but it's unused.
+WARN Add only entry points to the 'files' or 'include' properties in your tsconfig.
+WARN /Users/daonik/Desktop/development/learning/taskbox/src/stories/button.component.ts is part of the TypeScript compilation but it's unused.
+WARN Add only entry points to the 'files' or 'include' properties in your tsconfig.
+WARN /Users/daonik/Desktop/development/learning/taskbox/src/stories/header.component.ts is part of the TypeScript compilation but it's unused.
+WARN Add only entry points to the 'files' or 'include' properties in your tsconfig.
+WARN /Users/daonik/Desktop/development/learning/taskbox/src/stories/page.component.ts is part of the TypeScript compilation but it's unused.
+WARN Add only entry points to the 'files' or 'include' properties in your tsconfig.
+WARN asset size limit: The following asset(s) exceed the recommended size limit (244 KiB).
+WARN This can impact web performance.
+WARN Assets: 
+WARN   366.1064568a.iframe.bundle.js (601 KiB)
+WARN   565.c9971965.iframe.bundle.js (681 KiB)
+WARN   471.ea523b9d.iframe.bundle.js (791 KiB)
+WARN   726.319214ab.iframe.bundle.js (3.15 MiB)
+WARN entrypoint size limit: The following entrypoint(s) combined asset size exceeds the recommended limit (244 KiB). This can impact web performance.
+WARN Entrypoints:
+WARN   main (3.27 MiB)
+WARN       runtime~main.f0dc9577.iframe.bundle.js
+WARN       726.319214ab.iframe.bundle.js
+WARN       main.css
+WARN       main.104abb24.iframe.bundle.js
+WARN 
+<s> [webpack.Progress] 99% cache shutdown
+<s> [webpack.Progress] 99% cache shutdown
+<s> [webpack.Progress] 100% 
+
+info => Output directory: /var/folders/3h/tf8mh0kn04s0jz_ryb214d540000gn/T/chromatic--22004-oatM5xe9QGlO

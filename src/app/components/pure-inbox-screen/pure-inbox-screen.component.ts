@@ -6,6 +6,6 @@ import {Component, Input} from '@angular/core';
   styleUrls: ['./pure-inbox-screen.component.css']
 })
 export class PureInboxScreenComponent {
-  @Input() error: boolean;
+  @Input() error: boolean | null;
 
 }

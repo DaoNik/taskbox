@@ -1,6 +1,9 @@
-import { ComponentFixture, TestBed } from '@angular/core/testing';
+import {ComponentFixture, TestBed} from '@angular/core/testing';
 
-import { TaskListComponent } from './task-list.component';
+import {TaskListComponent} from './task-list.component';
+import {NgxsModule, Store} from "@ngxs/store";
+import {TasksState} from "../../state/task.state";
+import {CUSTOM_ELEMENTS_SCHEMA} from "@angular/core";
 
 describe('TaskListComponent', () => {
   let component: TaskListComponent;
@@ -8,9 +11,12 @@ describe('TaskListComponent', () => {
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ TaskListComponent ]
+      declarations: [TaskListComponent],
+      imports: [NgxsModule.forRoot([TasksState])],
+      providers: [Store],
+      schemas: [CUSTOM_ELEMENTS_SCHEMA]
     })
-    .compileComponents();
+      .compileComponents();
   });
 
   beforeEach(() => {

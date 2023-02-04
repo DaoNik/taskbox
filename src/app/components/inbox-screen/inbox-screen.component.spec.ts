@@ -1,6 +1,9 @@
-import { ComponentFixture, TestBed } from '@angular/core/testing';
+import {ComponentFixture, TestBed} from '@angular/core/testing';
 
-import { InboxScreenComponent } from './inbox-screen.component';
+import {InboxScreenComponent} from './inbox-screen.component';
+import {NgxsModule, Store} from "@ngxs/store";
+import {TasksState} from "../../state/task.state";
+import {CUSTOM_ELEMENTS_SCHEMA} from "@angular/core";
 
 describe('InboxScreenComponent', () => {
   let component: InboxScreenComponent;
@@ -8,9 +11,12 @@ describe('InboxScreenComponent', () => {
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ InboxScreenComponent ]
+      declarations: [InboxScreenComponent],
+      imports: [NgxsModule.forRoot([TasksState])],
+      providers: [Store],
+      schemas: [CUSTOM_ELEMENTS_SCHEMA]
     })
-    .compileComponents();
+      .compileComponents();
   });
 
   beforeEach(() => {

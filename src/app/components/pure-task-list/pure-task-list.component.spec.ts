@@ -1,20 +1,22 @@
-import { ComponentFixture, TestBed } from '@angular/core/testing';
+import {ComponentFixture, TestBed} from '@angular/core/testing';
 
-import { TaskListComponent } from './pure-task-list.component';
+import {PureTaskListComponent} from './pure-task-list.component';
+import {CUSTOM_ELEMENTS_SCHEMA} from "@angular/core";
 
 describe('TaskListComponent', () => {
-  let component: TaskListComponent;
-  let fixture: ComponentFixture<TaskListComponent>;
+  let component: PureTaskListComponent;
+  let fixture: ComponentFixture<PureTaskListComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ TaskListComponent ]
+      declarations: [PureTaskListComponent],
+      schemas: [CUSTOM_ELEMENTS_SCHEMA]
     })
-    .compileComponents();
+      .compileComponents();
   });
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(TaskListComponent);
+    fixture = TestBed.createComponent(PureTaskListComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

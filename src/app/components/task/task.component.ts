@@ -9,15 +9,15 @@ import {Task} from "../../models/task.model";
 export class TaskComponent {
   @Input() task: Task;
 
-  @Output() onPinTask = new EventEmitter<string>();
+  @Output() onPinTask = new EventEmitter<string | undefined>();
 
-  @Output() onArchiveTask = new EventEmitter<string>();
+  @Output() onArchiveTask = new EventEmitter<string | undefined>();
 
-  onPin(id: string): void {
+  onPin(id?: string): void {
     this.onPinTask.emit(id);
   }
 
-  onArchive(id: string): void {
+  onArchive(id?: string): void {
     this.onArchiveTask.emit(id);
   }
 }

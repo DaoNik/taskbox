@@ -15,10 +15,12 @@ export class PureTaskListComponent {
 
   tasksInOrder: Task[] = [];
 
-  @Input() set tasks(arr: Task[]) {
+  @Input() set tasks(arr: Task[] | null) {
+    const tasks: Task[] = arr ?? [];
+    
     const initialTasks = [
-      ...arr.filter(t => t.state === 'TASK_PINNED'),
-      ...arr.filter(t => t.state !== 'TASK_PINNED'),
+      ...tasks.filter(t => t.state === 'TASK_PINNED'),
+      ...tasks.filter(t => t.state !== 'TASK_PINNED'),
     ];
     this.tasksInOrder = initialTasks.filter(
       t => t.state === 'TASK_INBOX' || t.state === 'TASK_PINNED'
